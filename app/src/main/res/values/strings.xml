@@ -15,13 +15,22 @@
     </string>
 
     <string name="sources">
-            "VTU official site\n\n."
-            "VTU RESOURCE\n\n"
-            "VTU BUDDY\n\n"
-            "STUPID SID\n\n"
+            "VTU OFFICIAL | VTU RESOURCE | VTU BUDDY | STUPID SID\n\n"
 
 
     </string>
+    <string name="teaminfo">
+        "Special thanks to The Team\n\n"
+       ">> Theresa Thomas\n\n"
+        ">> Saniya Ahmed\n\n"
+        ">> Vamshita Yogish\n\n"
+        ">> Vamsi Anamalamudi\n\n"
+        ">> Sumith Pullanikkal\n\n"
+
+
+    </string>
+
+
     <string name="banner_ad_unit_id">ca-app-pub-7905385847988895/3665498962</string>
 
 </resources>
