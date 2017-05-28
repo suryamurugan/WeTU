@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#d5d1d1"
+    tools:context="com.murugan.surya.wetu.MainActivity">
+
+
+    <TextView
+        android:text="Loading, please wait . . ."
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tV1"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_marginTop="250sp"
+        android:backgroundTint="@color/colorAccent"
+        android:background="@color/colorAccent">
+
+    </TextView>
+    <WebView
+        android:id="@+id/mywebview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ProgressBar
+        android:id="@+id/pB1"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:padding="2dip"
+        android:progress="@android:integer/config_mediumAnimTime"></ProgressBar>
+
+
+
+
+</RelativeLayout>

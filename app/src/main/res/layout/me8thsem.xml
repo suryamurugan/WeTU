@@ -1,0 +1,186 @@
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.murugan.surya.wetu.MainActivity">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+        android:weightSum="1">
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mainback"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="SUBJECTS FOR MECH 8TH SEM"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+
+</LinearLayout>
+        <Button
+            android:id="@+id/meopermanagementbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Operations Management"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/mecontrolengineeringbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Control Engineering"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+
+        <Button
+            android:id="@+id/mefracturemechanicsbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Fracture Mechanics"
+            android:textAlignment="center"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/metribologybutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Tribology"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+
+        <Button
+            android:id="@+id/mepowerplantengineeringbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Power Plant Engineering"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/menanotechnologybutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Nanotechnology"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/meorganisationalbehaviourandprofessinalcommunicationbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Organisational Behaviour and Professional Communication"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/mecomputergraphicsbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Computer Graphics"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/merapidprototypingbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Rapid Prototyping"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/mefoundarytechnologybutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Foundry Technology"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/memachinetooldesignbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Machine Tool Design"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/meindustrialengineeringandergonomicsbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Industrial Engineering and Ergonomics"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/mebiomassenergysystemsbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Bio Mass Energy Systems"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/meautomotiveengineeringbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Automotive Engineering"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/medatabasenanagementsystembutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Database Management System"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/meartificialintelligencebutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Artificial Intelligence"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/medesignofexperimentsbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Design of Experiments"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/medesignformanufactureandassemblybutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Design for Manufacture and Assembly"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+
+    </LinearLayout>
+
+
+
+</android.support.v4.widget.NestedScrollView>

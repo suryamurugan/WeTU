@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.murugan.surya.wetu">
+
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+
+
+
+        <activity android:name=".PhysicsmainActivity" />
+        <activity android:name=".ChemistrymainActivity" />
+        <activity android:name=".CsbranchmainActivity" />
+        <activity android:name=".cs3rdsemActivity" />
+        <activity android:name=".cs4thsemActivity" />
+        <activity android:name=".cs5thsemActivity" />
+        <activity android:name=".cs6thsemActivity" />
+        <activity android:name=".cs7thsemActivity" />
+        <activity android:name=".cs8thsemActivity" />
+        <activity android:name=".IsbranchmainActivity" />
+        <activity android:name=".is3rdsemActivity" />
+        <activity android:name=".is4thsemActivity" />
+        <activity android:name=".is5thsemActivity" />
+        <activity android:name=".is6thsemActivity" />
+        <activity android:name=".is7thsemActivity" />
+        <activity android:name=".is8thsemActivity" />
+        <activity android:name=".EcebranchmainActivity" />
+        <activity android:name=".ece3rdsemActivity" />
+        <activity android:name=".ece4thsemActivity" />
+        <activity android:name=".ece5thsemActivity" />
+        <activity android:name=".ece6thsemActivity" />
+        <activity android:name=".ece7thsemActivity" />
+        <activity android:name=".ece8thsemActivity" />
+        <activity android:name=".MechbranchmainActivity" />
+        <activity android:name=".me3rdsemActivity" />
+        <activity android:name=".me4thsemActivity" />
+        <activity android:name=".me5thsemActivity" />
+        <activity android:name=".me6thsemActivity" />
+        <activity android:name=".me7thsemActivity" />
+        <activity android:name=".me8thsemActivity" />
+        <activity android:name=".CvbranchmainActivity" />
+        <activity android:name=".cv3rdsemActivity" />
+        <activity android:name=".cv4thsemActivity" />
+        <activity android:name=".cv5thsemActivity" />
+        <activity android:name=".cv6thsemActivity" />
+        <activity android:name=".cv7thsemActivity" />
+        <activity android:name=".cv8thsemActivity" />
+        <activity android:name=".WebviewActivity" />
+        <activity android:name=".ContactusActivity"></activity>
+    </application>
+
+</manifest>

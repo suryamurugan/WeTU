@@ -1,0 +1,112 @@
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.murugan.surya.wetu.MainActivity">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+        android:weightSum="1">
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mainback"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="SUBJECTS FOR ECE 5TH SEM"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>
+
+        <Button
+            android:id="@+id/managementandentrepreneurshipbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Management and Entrepreneurship"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/digitalsignalprocessingbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Digital Signal Processing"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/analogcommunicationbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Analog Communication"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/microwavesandradarbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Microwaves and Radar"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/informationtheoryandcodingbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Information Theory and Coding"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/analogelectronicslabbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="analog electronics lab"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/fundamentalsofcmosvlsibutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Fundamentals of CMOS VLSI"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/dsplabbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="DSP Lab"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/analogcommunictaionlabliclabbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="ANALOG COMMUNICATION LAB + LIC LAB"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+    </LinearLayout>
+
+
+
+</android.support.v4.widget.NestedScrollView>

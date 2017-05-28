@@ -1,0 +1,121 @@
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.murugan.surya.wetu.MainActivity">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+        android:weightSum="1">
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mainback"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="SUBJECTS FOR C-CYCLE"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>
+        <Button
+            android:id="@+id/math2Button"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="engineering mathematics-2"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/chemButton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="engineering chemistry"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/pcdButton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="programming in c data structures"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/belectrButton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="basic electronics"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/caedButton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="computer aided engineering design"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/envButton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="environmental studies"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+        android:id="@+id/chemlaButton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="engineering chemistry lab"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/complabButton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="computer programming lab"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/engButton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="functional lab"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/ukButton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+</android.support.v4.widget.NestedScrollView>

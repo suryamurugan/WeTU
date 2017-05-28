@@ -1,0 +1,154 @@
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.murugan.surya.wetu.MainActivity">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+        android:weightSum="1">
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mainback"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="SUBJECTS FOR CSE 8TH SEM"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="27sp"
+            android:textStyle="bold" />
+
+
+
+
+</LinearLayout>
+        <Button
+            android:id="@+id/cssoftwarearchitecturesbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Software Architectures"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button android:id="@+id/cssystemmodelingandsimulationbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="System Modeling and Simulation"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/cswirelessnetworksandmobilecomputingbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Wireless Networks and Mobile Computing "
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/cswebandrichinternetapplicationsbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Web 2.0 and Rich Internet Applications "
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/csvlsidesignandalgorithmsbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="VLSI Design and Algorithms"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/csnetworkmanagementsystemsbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Network Management Systems"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/csinformationandnetworksecuritybutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Information and Network Security"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/csmicrocontrollerbasedsystemsbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Microcontroller-Based Systems"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/csadhocnetworksbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Adhoc Networks"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/cssoftwaretestingbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Software Testing"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/csarmbasedsystemdesignbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="ARM Based System Design"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/csservicesorientedarchitecturebutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Services Oriented Architecture"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/cscloudsgridsandclustersbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Clouds, Grids and Clusters"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button android:id="@+id/csmulticorearchitectureandprogrammingbutton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="Multi-core Architecture and Programming "
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</android.support.v4.widget.NestedScrollView>

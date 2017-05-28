@@ -1,0 +1,160 @@
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.murugan.surya.wetu.MainActivity">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+        android:weightSum="1">
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mainback"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="SUBJECTS FOR CIVIL 8TH SEM"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>
+            <Button
+                android:id="@+id/cvadvanceconcretetechnology23button"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="advance concrete technology"
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <Button
+                android:id="@+id/cvdesignanddrawingofsteelstructuresbutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="design and drawing of steel structures"
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <Button
+                android:id="@+id/cvadvanceprestrconcretestrbutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="advance prestressed concrete structures"
+                android:textAlignment="center" android:textSize="22sp"/>
+            <Button
+                android:id="@+id/cvadvancedfoundationdesignbutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="d: advanced foundation design "
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <Button
+                android:id="@+id/cvpavementdesignbutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="d: pavement design"
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <Button
+                android:id="@+id/cvearthquakeresistdesignofstrbutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="d: earthquake resistant design of structures "
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <Button
+                android:id="@+id/cvindustrialwastewatertreatmentbutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="d: industrial wastewater treatment"
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <Button
+                android:id="@+id/cvqualitymanagementsystemincivilengineeringbutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="d: quality management system in civil engineering "
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <Button
+                android:id="@+id/cvfiniteelementanaiiibutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="e: finite element analysis "
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <Button
+                android:id="@+id/cvreinforcesearthstructuresbutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="e: reinforces earth structures"
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <Button
+                android:id="@+id/cvurbantransportplanningbutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="e: urban transport planning"
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <Button
+                android:id="@+id/cvgeographicinformationsystembutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="e: geographic information system"
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <Button
+                android:id="@+id/cvadvancedesignofsteelstructuresbutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="e: advance design of steel structures "
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <Button
+                android:id="@+id/cvwaterresourcesengineeringbutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="e: water resources engineering"
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <Button
+                android:id="@+id/cvenvironmentalimpactassessmentbutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="e: environmental impact assessment"
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+
+
+
+    </LinearLayout>
+
+
+
+</android.support.v4.widget.NestedScrollView>

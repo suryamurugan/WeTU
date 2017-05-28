@@ -1,0 +1,123 @@
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.murugan.surya.wetu.MainActivity">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+        android:weightSum="1">
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mainback"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="SUBJECTS FOR P-CYCLE"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>
+        <Button
+            android:id="@+id/mathButton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="engineering mathematics-1"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/physcisButton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="engineering physics"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/civilButton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="elements of civil eng..."
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/mechButton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="elements of mech eng.."
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/beleButton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="basic electrical engineering"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/consButton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="constution of india and professional ethics"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/phylaButton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="engineering physics lab"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/workButton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="workshop practise lab"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/kannadaButton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:text="kannada kali"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+        <Button
+            android:id="@+id/ukButton"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:textAlignment="center"
+            android:textSize="22sp"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,130 @@
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.murugan.surya.wetu.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/mainback">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="72dp"
+                android:orientation="horizontal"
+                android:weightSum="1"
+
+                >
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="90sp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginLeft="40sp"
+                    android:src="@drawable/books" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="181dp"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="17sp"
+                    android:text="Syllabus"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="35sp"
+                    android:textStyle="normal"
+                    android:typeface="monospace"
+                    android:textColor="@color/colorAccent"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="190sp"
+                android:orientation="vertical"
+                android:background="@color/moregrey">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1sp"
+                    android:text="1ST YEAR"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/pcyclebutton"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="match_parent"
+                    android:layout_height="85sp"
+                    android:text="Physics Cycle"
+                    android:textSize="22sp" />
+
+                <Button
+                    android:id="@+id/chemcyclebutton"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="match_parent"
+                    android:layout_height="85sp"
+                    android:text="Chemistry Cycle"
+                    android:textSize="22sp"/>
+
+
+
+
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/csebutton"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="85sp"
+                android:text="Computer science engineering"
+                android:textSize="22sp" />
+
+            <Button
+                android:id="@+id/isbutton"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="85sp"
+                android:text="INformation science engineering"
+                android:textSize="22sp"/>
+            <Button
+                android:id="@+id/ecebutton"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="85sp"
+                android:text="electronics and communication engineering"
+                android:textSize="22sp"/>
+            <Button
+                android:id="@+id/mebutton"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="85sp"
+                android:text="Mechanical engineering"
+                android:textSize="22sp"/>
+            <Button
+                android:id="@+id/cvbutton"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="85sp"
+                android:text="Civil Engineering"
+                android:textSize="22sp"/>
+            <Button
+                android:id="@+id/EMPTYbutton"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="85sp"
+                android:textSize="22sp"/>
+
+        </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
+

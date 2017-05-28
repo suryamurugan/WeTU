@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">WeTU Radar</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="TEXT1">
+        <b>text</b>
+
+    </string>
+    <string name="title_activity_physicsmain">Physics Cycle Syllabus</string>
+    <string name="large_text">
+            "This app was created to help all the students who are pursuing their under-graduation under Visvesaraya Technological University."
+        "I am a student of VTU, the soul purpose of this application is to make life easier for the students of VTU."
+        "Please support and provide your valuable feedback to make this app amazing."
+    </string>
+
+    <string name="sources">
+            "VTU official site\n\n."
+            "VTU RESOURCE\n\n"
+            "VTU BUDDY\n\n"
+            "STUPID SID\n\n"
+
+
+    </string>
+    <string name="banner_ad_unit_id">ca-app-pub-7905385847988895/3665498962</string>
+
+</resources>

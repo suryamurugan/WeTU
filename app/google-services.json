@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "200091460857",
+    "firebase_url": "https://wetu-4da7b.firebaseio.com",
+    "project_id": "wetu-4da7b",
+    "storage_bucket": "wetu-4da7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200091460857:android:8b3528f5a91881f7",
+        "android_client_info": {
+          "package_name": "com.murugan.surya.wetu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200091460857-lcd2lm2c238er8q4lr3iejs4ua8e2p29.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.murugan.surya.wetu",
+            "certificate_hash": "12f23edd7b679a374982988567403d3cdc77b1d9"
+          }
+        },
+        {
+          "client_id": "200091460857-3mcrp9nj7rn52jpt0unbdujp803sqtno.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-ulqbfrhYI69ot82HgCH2Lig0aB_d7h8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200091460857-3mcrp9nj7rn52jpt0unbdujp803sqtno.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+    <meta charset="utf-8">
+    <title>Syllabus</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
+</html>
+<body>
+    <div class='card'>
+<h1 align="center" class="Syllabus_Code">DATABASE APPLICATIONS LABORATORY</h1>
+ 
+  <p align="center" class="Syllabus_Code"><strong>Subject  Code: 10CSL57</strong><br />
+      <br />
+  <strong>1</strong>. Consider the following relations:<br />
+  Student (<em>snum: </em>integer, <em>sname: </em>string, <em>major: </em>string, <em>level: </em>string,<em>age: </em>integer)<br />
+  Class (<em>name: </em>string, <em>meets at: </em>string, <em>room: </em>string, <em>d: </em>integer)<br />
+  Enrolled (<em>snum: </em>integer, <em>cname: </em>string)<br />
+  Faculty (fi<em>d</em>:  integer, <em>fname: </em>string, <em>deptid: </em>integer)<br />
+  The meaning of  these relations is straightforward; for example,Enrolled has one record per  student-class pair such that the studentis enrolled in the class. Level is a  two character code with 4 different<br />
+values (example:  Junior: JR etc)</p>
+<p>Write the  following queries in SQL. No duplicates should be printed in any of the  answers.<br />
+  i. Find the  names of all Juniors (level = JR) who are enrolledin a class taught by Prof.  Harshith<br />
+  ii. Find the  names of all classes that either meet in room R128or have five or more Students  enrolled.<br />
+  iii. Find the  names of all students who are enrolled in twoclasses that meet at the same  time.<br />
+  iv. Find the  names of faculty members who teach in everyroom in which some class is taught.<br />
+v. Find the  names of faculty members for whom the combinedenrollment of the courses that  they teach is less than five.</p>
+<p><strong>2</strong>. The following relations keep track of  airline flight information:<br />
+  Flights (<em>no: </em>integer, <em>from: </em>string, <em>to: </em>string, <em>distance: </em>integer,<br />
+  <em>Departs: </em>time, <em>arrives: </em>time, <em>price: </em>real)<br />
+  Aircraft (<em>aid: </em>integer, <em>aname: </em>string, <em>cruisingrange: </em>integer)<br />
+  Certified (<em>eid: </em>integer, <em>aid: </em>integer)<br />
+  Employees (<em>eid: </em>integer, <em>ename: </em>string, <em>salary: </em>integer)<br />
+  Note that the  Employees relation describes pilots and other kinds ofemployees as well; Every  pilot is certified for some aircraft,and only pilots are certified to fly.</p>
+<p>Write each of  the following queries in SQL.<br />
+  i. Find the  names of aircraft such that all pilots certified tooperate them have salaries  more than Rs.80, 000.<br />
+  ii. For each  pilot who is certified for more than three aircrafts,find the <em>eid</em>and the  maximum <em>cruisingrange</em>of the aircraftfor which she or he is certified.<br />
+  iii. Find the  names of pilots whose <em>salary </em>is less than the priceof the cheapest route  from Bengaluru to Frankfurt.<br />
+  iv. For all  aircraft with <em>cruisingrange</em>over 1000 Kms, .find thename of the aircraft  and the average salary of all pilotscertified for this aircraft.<br />
+  v. Find the  names of pilots certified for some Boeing aircraft.<br />
+  vi. Find the <em>aid</em>s  of all aircraft that can be used on routes fromBengaluru to New Delhi.</p>
+<p><strong>3</strong>. Consider the following database of  student enrollment in courses &amp;books adopted for each course.<br />
+  STUDENT (regno:  string, name: string, major: string, bdate:date)<br />
+  COURSE (course  #:int, cname:string, dept:string)<br />
+  ENROLL (  regno:string, course#:int, sem:int, marks:int)<br />
+  BOOK _ ADOPTION  (course# :int, sem:int, book-ISBN:int)<br />
+  TEXT  (book-ISBN:int, book-title:string, publisher:string,author:string)</p>
+<p>i. Create the  above tables by properly specifying the primarykeys and the foreign keys.<br />
+  ii. Enter at  least five tuples for each relation.<br />
+  iii. Demonstrate  how you add a new text book to the databaseand make this book be adopted by  some department.<br />
+  iv. Produce a  list of text books (include Course #, Book-ISBN,Book-title) in the alphabetical  order for courses offered bythe ‘CS’ department that use more than two books.<br />
+  v. List any  department that has <em>all </em>its adopted bookspublished by a specific  publisher.<br />
+  vi. Generate  suitable reports.<br />
+  vii. Create  suitable front end for querying and displaying theresults.</p>
+<p><strong>4</strong>. The following tables are maintained by  a book dealer.<br />
+  AUTHOR  (author-id:int, name:string, city:string, country:string)<br />
+  PUBLISHER  (publisher-id:int, name:string, city:string,country:string)<br />
+  CATALOG  (book-id:int, title:string, author-id:int, publisher-id:int,category-id:int,  year:int, price:int)<br />
+  CATEGORY  (category-id:int, description:string)<br />
+  ORDER-DETAILS  (order-no:int, book-id:int, quantity:int)</p>
+<p>i. Create the  above tables by properly specifying the primarykeys and the foreign keys.<br />
+  ii. Enter at  least five tuples for each relation.<br />
+  iii. Give the  details of the authors who have 2 or more books inthe catalog and the price of  the books is greater than theaverage price of the books in the catalog and the  year ofpublication is after 2000.<br />
+  iv. Find the  author of the book which has maximum sales.<br />
+  v. Demonstrate  how you increase the price of books publishedby a specific publisher by 10%.<br />
+  vi. Generate  suitable reports.<br />
+  vii. Create  suitable front end for querying and displaying theresults.</p>
+<p><strong>5</strong>. Consider the following database for a  banking enterprise<br />
+  BRANCH(branch-name:string,  branch-city:string, assets:real)<br />
+  ACCOUNT(accno:int,  branch-name:string, balance:real)<br />
+  DEPOSITOR(customer-name:string,  accno:int)<br />
+  CUSTOMER(customer-name:string,  customer-street:string,customer-city:string)<br />
+  LOAN(loan-number:int,  branch-name:string, amount:real)<br />
+  BORROWER(customer-name:string,  loan-number:int)</p>
+<p>i. Create the  above tables by properly specifying the primarykeys and the foreign keys<br />
+  ii. Enter at  least five tuples for each relation<br />
+  iii. Find all  the customers who have at least two accounts at the<em>Main </em>branch.<br />
+  iv. Find all the  customers who have an account at <em>all </em>thebranches located in a specific  city.<br />
+  v. Demonstrate  how you delete all account tuples at everybranch located in a specific city.<br />
+  vi. Generate  suitable reports.<br />
+  vii. Create  suitable front end for querying and displaying theresults.</p>
+        
+    </div>
+    <div class='card'>
+<p><h4><strong>Instructions</strong></h4><p>
+  1. The exercises  are to be solved in an RDBMS environment likeOracle or DB2.<br />
+  2. Suitable  tuples have to be entered so that queries are executedcorrectly.<br />
+  3. Front end may  be created using either VB or VAJ or any othersimilar tool.<br />
+  4. The student  need not create the front end in the examination.The results of the queries may  be displayed directly.<br />
+  5. Relevant  queries other than the ones listed along with theexercises may also be asked in  the examination.<br />
+  6. Questions  must be asked based on lots.</p>
+    
+    </div>
+
+</body>
