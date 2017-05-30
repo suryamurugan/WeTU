@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.getTabAt(0).setText("Syllabus");
         tabLayout.getTabAt(1).setText("Questions");
         tabLayout.getTabAt(2).setText("Results");
-        tabLayout.getTabAt(3).setText("NOTES");
+        tabLayout.getTabAt(3).setText("Labs");
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -123,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public int getCount() {
-            // Show 3 total pages.
+            // Show 4 total pages.
             return 4;
         }
 

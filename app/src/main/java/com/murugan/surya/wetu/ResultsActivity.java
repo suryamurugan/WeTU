@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebChromeClient;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
@@ -27,6 +28,30 @@ public class ResultsActivity extends Fragment {
 
         ////////////////////////////THIS IS FOR WEBVIEW TO LOAD RESULT//////////////////
         WebView webView = (WebView) rootView.findViewById(R.id.webview);
+
+/*
+        //////////////optimize////////////////////////////
+        webView.getSettings().setRenderPriority(WebSettings.RenderPriority.HIGH);
+        webView.getSettings().setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK);
+        webView.getSettings().setAppCacheEnabled(true);
+        webView.getSettings().setDomStorageEnabled(true);
+        webView.getSettings().setLayoutAlgorithm(WebSettings.LayoutAlgorithm.NARROW_COLUMNS);
+        webView.getSettings().setUseWideViewPort(true);
+        webView.getSettings().setSavePassword(true);
+        webView.getSettings().setSaveFormData(true);
+        webView.getSettings().setDatabaseEnabled(true);
+*/
+
+////////////////////////////////////////////
+
+
+        webView.getSettings().setLayoutAlgorithm(WebSettings.LayoutAlgorithm.NARROW_COLUMNS);
+
+        webView.getSettings().setSavePassword(true);
+        webView.getSettings().setSaveFormData(true);
+        webView.getSettings().setDatabaseEnabled(true);
+        ///////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
         webView.getSettings().setSupportZoom(true);
