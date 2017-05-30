@@ -1,6 +1,5 @@
 package com.murugan.surya.wetu;
 
-import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -15,15 +14,21 @@ import android.widget.ProgressBar;
 
 public class LabActivity extends Fragment {
 
+
+
+
+
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.labs_main, container, false);
 
+
+
+
         final WebView webViewnotes = (WebView) rootView.findViewById(R.id.noteswebview);
-
-
-
+        final Button previousButton =(Button) rootView.findViewById(R.id.previousButton);
         webViewnotes.getSettings().setLayoutAlgorithm(WebSettings.LayoutAlgorithm.NARROW_COLUMNS);
 
         webViewnotes.getSettings().setSavePassword(true);
@@ -62,75 +67,43 @@ public class LabActivity extends Fragment {
             }
         });
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   //////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////FOR BUTTONS////////////////////
+        final Button  forwardbutton = (Button) rootView.findViewById(R.id.forwardButton);
+        final Button prevbutton = (Button) rootView.findViewById(R.id.previousButton);
+//////////////forwaed
 
-        final Button previousButton =(Button) rootView.findViewById(R.id.previousButton);
-
-        previousButton.setOnClickListener(new View.OnClickListener() {
-
+        forwardbutton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                // TODO Auto-generated method stub
+            public void onClick(View view) {
+                if(webViewnotes.canGoForward()){
+
+                    webViewnotes.goForward();
+
+                }
+
+            }
+
+        });
+        /////////////////////////
+        //////////////forwaed
+
+        prevbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 
                 if(webViewnotes.canGoBack()){
+
+
+
                     webViewnotes.goBack();
                 }
+
             }
+
         });
-        final Button forwardButton =(Button) rootView.findViewById(R.id.forwardButton);
-
-        forwardButton.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                // TODO Auto-generated method stub
-
-                if(webViewnotes.canGoForward()){
-                    webViewnotes.goForward();
-                }
-            }
-        });
-        webViewnotes.setWebViewClient( new WebViewClient() {
-
-
-
-            @Override
-            public void onPageStarted(WebView view, String url, Bitmap favicon) {
-                // TODO Auto-generated method stub
-                super.onPageStarted(view, url, favicon);
-            }
-
-            @Override
-            public void onPageFinished( WebView view, String url ) {
-
-                super.onPageFinished(webViewnotes, url );
-
-                previousButton.setEnabled(view.canGoBack());
-                forwardButton.setEnabled(view.canGoForward());
-
-            }
-
-            @Override
-            public void onReceivedError( WebView view, int errorCode, String description, String failingUrl ) {
-
-                super.onReceivedError( webViewnotes, errorCode, description, failingUrl );
-              /*  Toast.makeText(LabActivity.class, description, Toast.LENGTH_LONG ); */
-            }
-        } );
-
-
-
-
-
-
-
-
-
-
-
-
-
         /////////////////////////
+
 
 
         return rootView;

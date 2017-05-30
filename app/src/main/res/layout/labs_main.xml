@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:enabled="false"
+
         android:layout_weight="1"
         android:text="back"/>
 
@@ -31,20 +31,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@+id/previousButton"
-        android:enabled="false"
+
         android:layout_weight="1"
         android:text="forward" />
 </LinearLayout>
-
-
-
-
-<android.support.v4.widget.NestedScrollView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.murugan.surya.wetu.MainActivity">
-
-
 
 
 
@@ -57,27 +47,20 @@
 
 
         <WebView android:id="@+id/noteswebview"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
 
-    <ProgressBar
-        android:id="@+id/pB22"
-        style="@style/Widget.AppCompat.ProgressBar"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="160sp"
-        android:layout_centerVertical="true"
-        android:padding="2dip"
-        android:progress="@android:integer/config_mediumAnimTime"></ProgressBar>
+        <ProgressBar
+            android:id="@+id/pB22"
+            style="@style/Widget.AppCompat.ProgressBar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160sp"
+            android:layout_centerVertical="true"
+            android:padding="2dip"
+            android:progress="@android:integer/config_mediumAnimTime"></ProgressBar>
 
     </LinearLayout>
-
-
-
-
-</android.support.v4.widget.NestedScrollView>
-
-
 
 
 </LinearLayout>
