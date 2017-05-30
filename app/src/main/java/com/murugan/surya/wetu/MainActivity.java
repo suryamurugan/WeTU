@@ -64,10 +64,12 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.getTabAt(0).setIcon(R.drawable.syllbus_tab);
         tabLayout.getTabAt(1).setIcon(R.drawable.questionpapers_tab);
         tabLayout.getTabAt(2).setIcon(R.drawable.results_tab);
+        tabLayout.getTabAt(3).setIcon(R.drawable.notes_tab);
         ////////////////////////////////////////////////////////////////////////////
         tabLayout.getTabAt(0).setText("Syllabus");
         tabLayout.getTabAt(1).setText("Questions");
         tabLayout.getTabAt(2).setText("Results");
+        tabLayout.getTabAt(3).setText("NOTES");
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -109,6 +111,9 @@ public class MainActivity extends AppCompatActivity {
                 case 2:
                     ResultsActivity results= new ResultsActivity();
                     return results;
+                case 3:
+                    NotesActivity notes = new NotesActivity();
+                    return notes;
 
             }
             return null;
@@ -119,7 +124,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 3;
+            return 4;
         }
 
 

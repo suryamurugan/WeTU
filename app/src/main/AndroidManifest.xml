@@ -2,9 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.murugan.surya.wetu">
 
-
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -14,7 +12,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme">
@@ -24,11 +21,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
-
-
-
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
@@ -37,10 +29,6 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-
-
-
-
         <activity android:name=".PhysicsmainActivity" />
         <activity android:name=".ChemistrymainActivity" />
         <activity android:name=".CsbranchmainActivity" />
@@ -79,7 +67,8 @@
         <activity android:name=".cv7thsemActivity" />
         <activity android:name=".cv8thsemActivity" />
         <activity android:name=".WebviewActivity" />
-        <activity android:name=".ContactusActivity"></activity>
+        <activity android:name=".ContactusActivity"/>
+
     </application>
 
 </manifest>
