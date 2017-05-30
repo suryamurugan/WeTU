@@ -23,7 +23,7 @@
         android:layout_alignParentTop="true"
         android:enabled="false"
         android:layout_weight="1"
-        android:text="previous"/>
+        android:text="back"/>
 
     <Button
         android:id="@+id/forwardButton"
