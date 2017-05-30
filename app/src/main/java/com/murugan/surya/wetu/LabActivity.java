@@ -13,12 +13,12 @@ import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.ProgressBar;
 
-public class NotesActivity extends Fragment {
+public class LabActivity extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.notes_main, container, false);
+        View rootView = inflater.inflate(R.layout.labs_main, container, false);
 
         final WebView webViewnotes = (WebView) rootView.findViewById(R.id.noteswebview);
 
@@ -114,7 +114,7 @@ public class NotesActivity extends Fragment {
             public void onReceivedError( WebView view, int errorCode, String description, String failingUrl ) {
 
                 super.onReceivedError( webViewnotes, errorCode, description, failingUrl );
-              /*  Toast.makeText(NotesActivity.class, description, Toast.LENGTH_LONG ); */
+              /*  Toast.makeText(LabActivity.class, description, Toast.LENGTH_LONG ); */
             }
         } );
 

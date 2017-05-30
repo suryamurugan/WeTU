@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.Toast;
 
 /**
  * Created by surya on 21/5/17.
@@ -23,6 +24,8 @@ public class QuestionsActivity extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.questions_layout, container, false);
 
+
+
         //////////////////////////vtu official site///////////////////////////////
         final Button vtuofficialsiteBut = (Button) rootView.findViewById(R.id.qpvtuofficial);
         vtuofficialsiteBut.setOnClickListener(new View.OnClickListener() {
@@ -30,6 +33,8 @@ public class QuestionsActivity extends Fragment {
                 Intent intent = new Intent(getActivity(),WebviewActivity.class);
                 intent.putExtra("vtuofficialsite","http://vtu.ac.in/model-question-paper");
                 QuestionsActivity.this.startActivity(intent);
+                Toast.makeText(getContext(), "Please provide storage access to download question papers",
+                        Toast.LENGTH_LONG).show();
             }
         });
         ////////////////////////////////////////////////////////////////////////
@@ -43,6 +48,8 @@ public class QuestionsActivity extends Fragment {
                 Intent intent = new Intent (getActivity(),WebviewActivity.class);
                 intent.putExtra("vturesource","http://www.vturesource.com/vtu-question-papers/");
                 QuestionsActivity.this.startActivity(intent);
+                Toast.makeText(getContext(), "Please provide storage access to download question papers",
+                        Toast.LENGTH_LONG).show();
             }
         });
         ////////////////////////////////////////////////////////////////////////
@@ -54,8 +61,9 @@ public class QuestionsActivity extends Fragment {
             public void onClick(View v) {
                 Intent intent = new Intent (getActivity(),WebviewActivity.class);
                 intent.putExtra("vtubuddy","http://www.vtubuddy.com/vtu-question-papers/");
-
                 QuestionsActivity.this.startActivity(intent);
+                Toast.makeText(getContext(), "Please provide storage access to download question papers",
+                        Toast.LENGTH_LONG).show();
             }
         });
         ////////////////////////////////////////////////////////////////////////
@@ -69,6 +77,8 @@ public class QuestionsActivity extends Fragment {
                 Intent intent = new Intent (getActivity(),WebviewActivity.class);
                 intent.putExtra("stupidsid","http://www.stupidsid.com/study-resources/documents/university-papers");
                 QuestionsActivity.this.startActivity(intent);
+                Toast.makeText(getContext(), "Please provide storage access to download question papers",
+                        Toast.LENGTH_LONG).show();
             }
         });
         ////////////////////////////////////////////////////////////////////////

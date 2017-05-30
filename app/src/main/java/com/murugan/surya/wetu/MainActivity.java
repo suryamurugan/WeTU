@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
                     ResultsActivity results= new ResultsActivity();
                     return results;
                 case 3:
-                    NotesActivity notes = new NotesActivity();
+                    LabActivity notes = new LabActivity();
                     return notes;
 
             }
