@@ -23,7 +23,6 @@ import static android.widget.Toast.makeText;
 public class WebviewActivity extends AppCompatActivity {
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -67,10 +66,16 @@ public class WebviewActivity extends AppCompatActivity {
         mWebView.setDownloadListener(new DownloadListener()
         {
 
+
+
             @Override
             public void onDownloadStart(String url, String userAgent,
                                         String contentDisposition, String mimeType,
                                         long contentLength) {
+
+
+
+
 
 
                 DownloadManager.Request request = new DownloadManager.Request(
@@ -1453,6 +1458,11 @@ public class WebviewActivity extends AppCompatActivity {
 
 
     }
+
+
+
+
+
 
 
 

@@ -107,6 +107,7 @@ public class MainActivity extends AppCompatActivity {
                     return  syllabus;
                 case 1:
                     QuestionsActivity questionpapers = new QuestionsActivity();
+
                     return questionpapers;
                 case 2:
                     ResultsActivity results= new ResultsActivity();
