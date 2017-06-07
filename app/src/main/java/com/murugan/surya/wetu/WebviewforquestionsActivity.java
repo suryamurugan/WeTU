@@ -115,6 +115,8 @@ public class WebviewforquestionsActivity extends AppCompatActivity {
             }});
 
 
+
+
 ////////////////////////////////// THIS IS TO GET THE DATA OR URL FROM OTHER ACTIVITIES///////////////////
 
 
