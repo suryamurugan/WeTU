@@ -69,6 +69,7 @@
         <activity android:name=".cv7thsemActivity" />
         <activity android:name=".cv8thsemActivity" />
         <activity android:name=".WebviewActivity" />
+        <activity android:name=".WebviewforquestionsActivity"/>
         <activity android:name=".ContactusActivity"/>
 
     </application>

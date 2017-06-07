@@ -34,7 +34,7 @@ public class QuestionsActivity extends Fragment {
             public void onClick(View v) {
                 askForPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE,WRITE_EXST); ////ASKING FOR PERMISSION CALLING ASKFOR PERMISSION FUN
 
-                Intent intent = new Intent(getActivity(),WebviewActivity.class);
+                Intent intent = new Intent(getActivity(),WebviewforquestionsActivity.class);
                 intent.putExtra("vtuofficialsite","http://vtu.ac.in/model-question-paper");
                  QuestionsActivity.this.startActivity(intent);
                 //Toast.makeText(getContext(), "Please provide storage access to download question papers",
@@ -51,7 +51,7 @@ public class QuestionsActivity extends Fragment {
             public void onClick(View v) {
                 askForPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE,WRITE_EXST); ////ASKING FOR PERMISSION CALLING ASKFOR PERMISSION FUN
 
-                Intent intent = new Intent (getActivity(),WebviewActivity.class);
+                Intent intent = new Intent (getActivity(),WebviewforquestionsActivity.class);
                 intent.putExtra("vturesource","http://www.vturesource.com/vtu-question-papers/");
                 QuestionsActivity.this.startActivity(intent);
                // Toast.makeText(getContext(), "Please provide storage access to download question papers",
@@ -68,7 +68,7 @@ public class QuestionsActivity extends Fragment {
             public void onClick(View v) {
                 askForPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE,WRITE_EXST); ////ASKING FOR PERMISSION CALLING ASKFOR PERMISSION FUN
 
-                Intent intent = new Intent (getActivity(),WebviewActivity.class);
+                Intent intent = new Intent (getActivity(),WebviewforquestionsActivity.class);
                 intent.putExtra("vtubuddy","http://www.vtubuddy.com/vtu-question-papers/");
                 QuestionsActivity.this.startActivity(intent);
              //   Toast.makeText(getContext(), "Please provide storage access to download question papers",
@@ -85,7 +85,7 @@ public class QuestionsActivity extends Fragment {
             public void onClick(View v) {
                 askForPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE,WRITE_EXST); ////ASKING FOR PERMISSION CALLING ASKFOR PERMISSION FUN
 
-                Intent intent = new Intent (getActivity(),WebviewActivity.class);
+                Intent intent = new Intent (getActivity(),WebviewforquestionsActivity.class);
                 intent.putExtra("stupidsid","http://www.stupidsid.com/study-resources/documents/university-papers");
                 QuestionsActivity.this.startActivity(intent);
                 //Toast.makeText(getContext(), "Please provide storage access to download question papers",
