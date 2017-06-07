@@ -1,10 +1,13 @@
 package com.murugan.surya.wetu;
 
 import android.app.DownloadManager;
+import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.ContextCompat;
 import android.view.HapticFeedbackConstants;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,6 +19,7 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
+import android.widget.Toast;
 
 import static android.content.Context.DOWNLOAD_SERVICE;
 import static android.widget.Toast.LENGTH_LONG;
@@ -28,12 +32,15 @@ import static android.widget.Toast.makeText;
 
 public class UpdatesActivity extends Fragment {
 
+    static final Integer WRITE_EXST = 0x1;
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.updates_layout, container, false);
+        askForPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE,WRITE_EXST); ////ASKING FOR PERMISSION CALLING ASKFOR PERMISSION FUN
+
 
 
         ////////////////////////////THIS IS FOR WEBVIEW TO LOAD RESULT//////////////////
@@ -87,6 +94,8 @@ public class UpdatesActivity extends Fragment {
             public void onDownloadStart(String url, String userAgent,
                                         String contentDisposition, String mimeType,
                                         long contentLength) {
+
+
 
 
 
@@ -184,6 +193,46 @@ public class UpdatesActivity extends Fragment {
         return rootView;
 
     }
+
+
+
+
+
+    ///////////////////////////?FUNCTIONS FOR RUNTIME PERMISSIONS
+    /////////////////////////////////////
+    private void askForPermission(String permission, Integer requestCode) {
+        if (ContextCompat.checkSelfPermission(getActivity(), permission) != PackageManager.PERMISSION_GRANTED) {
+
+            // Should we show an explanation?
+            if (ActivityCompat.shouldShowRequestPermissionRationale(getActivity(), permission)) {
+
+                //This is called if user has denied the permission before
+                //In this case I am just asking the permission again
+                ActivityCompat.requestPermissions(getActivity(), new String[]{permission}, requestCode);
+
+            } else {
+
+                ActivityCompat.requestPermissions(getActivity(), new String[]{permission}, requestCode);
+            }
+        } else {
+            Toast.makeText(getContext(), "" + permission + " is already granted.", Toast.LENGTH_SHORT).show();
+        }
+    }
+    //////////////////////////////
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if(ActivityCompat.checkSelfPermission(getContext(), permissions[0]) == PackageManager.PERMISSION_GRANTED){
+            Toast.makeText(getContext(), "Permission granted", Toast.LENGTH_SHORT).show();
+        }else{
+            Toast.makeText(getContext(), "Permission denied", Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    //////////////////////////////////////
+
+    ////////////////////////////////////////////////////////////
+
 
 
 }
