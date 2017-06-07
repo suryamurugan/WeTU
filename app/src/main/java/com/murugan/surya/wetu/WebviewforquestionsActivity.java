@@ -128,6 +128,8 @@ public class WebviewforquestionsActivity extends AppCompatActivity {
             String vturesourceurl = extras.getString("vturesource");
             String vtubuddyurl = extras.getString("vtubuddy");
             String stupidsidurl = extras.getString("stupidsid");
+            String weturadarcontactsurl = extras.getString("WETURADAR");
+
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 
@@ -140,6 +142,8 @@ public class WebviewforquestionsActivity extends AppCompatActivity {
                 mWebView.loadUrl(vtubuddyurl);
             else if (stupidsidurl !=null)
                 mWebView.loadUrl(stupidsidurl);
+            else if(weturadarcontactsurl != null)
+                mWebView.loadUrl(weturadarcontactsurl);
 
 
 

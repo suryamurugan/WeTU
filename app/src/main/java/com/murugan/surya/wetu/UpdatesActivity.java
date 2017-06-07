@@ -1,15 +1,25 @@
 package com.murugan.surya.wetu;
 
+import android.app.DownloadManager;
+import android.net.Uri;
 import android.os.Bundle;
+import android.os.Environment;
 import android.support.v4.app.Fragment;
 import android.view.HapticFeedbackConstants;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.CookieManager;
+import android.webkit.DownloadListener;
+import android.webkit.URLUtil;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
+
+import static android.content.Context.DOWNLOAD_SERVICE;
+import static android.widget.Toast.LENGTH_LONG;
+import static android.widget.Toast.makeText;
 
 /**
  * Created by surya on 21/5/17.
@@ -57,13 +67,65 @@ public class UpdatesActivity extends Fragment {
         webView22.getSettings().setSupportZoom(true);
         webView22.getSettings().setBuiltInZoomControls(true);
         webView22.setWebViewClient(new WebViewClient());
-        webView22.loadUrl("http://weturadar.com/vtu-updates/");
+        webView22.loadUrl("http://weturadar.com/");
+
    ///////////////////////////////////////////////////////////////////////////////////
 
 
+        ///////////////////////////////////////////////////////////////////////////
+////////////THIS IS FOR DDOWNLOADING////////////////////////
+        webView22.setDownloadListener(new DownloadListener()
+        {
 
 
-        /////////////////////////////////////////////FOR BUTTONS////////////////////
+
+            @Override
+            public void onDownloadStart(String url, String userAgent,
+                                        String contentDisposition, String mimeType,
+                                        long contentLength) {
+
+
+
+
+
+
+                DownloadManager.Request request = new DownloadManager.Request(
+                        Uri.parse(url));
+                request.setMimeType(mimeType);
+
+
+                String cookies = CookieManager.getInstance().getCookie(url);
+
+
+                request.addRequestHeader("cookie", cookies);
+
+
+                request.addRequestHeader("User-Agent", userAgent);
+
+
+                request.setDescription("Downloading file...");
+
+
+                request.setTitle(URLUtil.guessFileName(url, contentDisposition,
+                        mimeType));
+
+
+                request.allowScanningByMediaScanner();
+
+
+                request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+                request.setDestinationInExternalPublicDir(
+                        Environment.DIRECTORY_DOWNLOADS, URLUtil.guessFileName(
+                                url, contentDisposition, mimeType));
+                DownloadManager dm = (DownloadManager) getActivity().getSystemService(DOWNLOAD_SERVICE);
+                dm.enqueue(request);
+                makeText(getActivity().getApplicationContext(), "Downloading File",
+                        LENGTH_LONG).show();
+
+            }});
+
+
+/////////////////////////////////////////////FOR BUTTONS////////////////////
         final Button  forwardbutton22 = (Button) rootView.findViewById(R.id.forwardButton22);
         final Button prevbutton22 = (Button) rootView.findViewById(R.id.previousButton22);
         final Button reloadbutton22 = (Button) rootView.findViewById(R.id.reloadButton22);
@@ -112,22 +174,6 @@ public class UpdatesActivity extends Fragment {
             }
 
         });
-
-
-
-        /////////////////////////
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
