@@ -2,6 +2,7 @@ package com.murugan.surya.wetu;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.view.HapticFeedbackConstants;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,6 +10,7 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Button;
 import android.widget.ProgressBar;
 
 /**
@@ -27,7 +29,7 @@ public class ResultsActivity extends Fragment {
 
 
         ////////////////////////////THIS IS FOR WEBVIEW TO LOAD RESULT//////////////////
-        WebView webView = (WebView) rootView.findViewById(R.id.webview);
+        final WebView webView = (WebView) rootView.findViewById(R.id.webview);
 
 /*
         //////////////optimize////////////////////////////
@@ -84,6 +86,81 @@ public class ResultsActivity extends Fragment {
         });
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        /////////////////////////////////////////////FOR BUTTONS////////////////////
+        final Button forwardbutton22 = (Button) rootView.findViewById(R.id.forwardButton12);
+        final Button prevbutton22 = (Button) rootView.findViewById(R.id.previousButton12);
+        final Button reloadbutton22 = (Button) rootView.findViewById(R.id.reloadButton12);
+//////////////forwaed
+
+        forwardbutton22.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(webView.canGoForward()){
+
+                    webView.goForward();
+                    view.performHapticFeedback(HapticFeedbackConstants.VIRTUAL_KEY);
+
+                }
+
+            }
+
+        });
+        /////////////////////////
+        //////////////back
+
+        prevbutton22.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                if(webView.canGoBack()){
+
+                    webView.goBack();
+                    view.performHapticFeedback(HapticFeedbackConstants.VIRTUAL_KEY);
+                }
+
+            }
+
+        });
+        /////////////////////////
+        //////////////RELOAD
+
+        reloadbutton22.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                webView.reload();
+                view.performHapticFeedback(HapticFeedbackConstants.VIRTUAL_KEY);
+
+
+            }
+
+        });
+
+
+
+        /////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        ///////////////////////////////////////////////////////////////////////////////////////////////////////
         return rootView;
 
     }
