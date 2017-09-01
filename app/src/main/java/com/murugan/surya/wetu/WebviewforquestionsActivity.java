@@ -15,6 +15,7 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ProgressBar;
 
 import static android.widget.Toast.LENGTH_LONG;
@@ -157,7 +158,7 @@ public class WebviewforquestionsActivity extends AppCompatActivity {
         /////////////////////////////////////////////FOR BUTTONS////////////////////
         final Button forwardbutton22 = (Button) findViewById(R.id.forwardButton121);
         final Button prevbutton22 = (Button) findViewById(R.id.previousButton121);
-        final Button reloadbutton22 = (Button) findViewById(R.id.reloadButton121);
+        final ImageButton reloadbutton22 = (ImageButton) findViewById(R.id.reloadButton121);
 //////////////forwaed
 
         forwardbutton22.setOnClickListener(new View.OnClickListener() {

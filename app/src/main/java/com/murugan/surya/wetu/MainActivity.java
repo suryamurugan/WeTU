@@ -62,17 +62,21 @@ public class MainActivity extends AppCompatActivity {
 
       ////////////// ADDING ICON TO THE TABS OF THE PAGES ////////////////////////////////
         tabLayout.getTabAt(0).setIcon(R.drawable.syllbus_tab);
-        tabLayout.getTabAt(1).setIcon(R.drawable.questionpapers_tab);
+        tabLayout.getTabAt(1).setIcon(R.drawable.syllbus_tab);
+        //tabLayout.getTabAt(1).setIcon(R.drawable.questionpapers_tab); // removed this
         tabLayout.getTabAt(2).setIcon(R.drawable.results_tab);
-        tabLayout.getTabAt(3).setIcon(R.drawable.notes_tab);
-        tabLayout.getTabAt(4).setIcon(R.drawable.updates_tab2);
+        //tabLayout.getTabAt(2).setIcon(R.drawable.notes_tab);  // removed this (LAB videos)
+        tabLayout.getTabAt(3).setIcon(R.drawable.updates_tab2);
 
-        ////////////////////////////////////////////////////////////////////////////
+
+       ////////////////////////////////////////////////////////////////////////////
         tabLayout.getTabAt(0).setText("Syllabus");
-        tabLayout.getTabAt(1).setText("Questions");
+        tabLayout.getTabAt(1).setText("Library");
+        //tabLayout.getTabAt(1).setText("Questions");//removed this
         tabLayout.getTabAt(2).setText("Results");
-        tabLayout.getTabAt(3).setText("Labs");
-        tabLayout.getTabAt(4).setText("Updates");
+        //tabLayout.getTabAt(2).setText("Labs"); // removed this lab videos
+        tabLayout.getTabAt(3).setText("Updates");
+
 
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -110,18 +114,23 @@ public class MainActivity extends AppCompatActivity {
                     SyllabusActivity syllabus= new SyllabusActivity();
                     return  syllabus;
                 case 1:
-                    QuestionsActivity questionpapers = new QuestionsActivity();
-
-                    return questionpapers;
+                    LibraryActivity library = new LibraryActivity();
+                    return library;
+              //  case 1:
+                //    QuestionsActivity questionpapers = new QuestionsActivity(); //removed this
+                   // return questionpapers;
                 case 2:
                     ResultsActivity results= new ResultsActivity();
                     return results;
+
+             //   case 2:
+               //     LabActivity notes = new LabActivity();
+                 //   return notes;                     // REmoved this lab videos
                 case 3:
-                    LabActivity notes = new LabActivity();
-                    return notes;
-                case 4:
                     UpdatesActivity updates = new UpdatesActivity();
                     return updates;
+
+
 
             }
             return null;
@@ -132,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public int getCount() {
             // Show 4 total pages.
-            return 5;
+            return 4;
         }
 
 
