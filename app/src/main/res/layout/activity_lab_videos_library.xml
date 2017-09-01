@@ -1,0 +1,81 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.murugan.surya.wetu.MainActivity"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35sp"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary">
+
+
+
+        <Button
+            android:id="@+id/previousButton"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+
+            android:layout_weight="1"
+            android:text="back"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/reloadButton"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+
+            android:layout_toRightOf="@+id/previousButton"
+            android:layout_weight="1"
+            android:text="refresh" />
+
+        <Button
+            android:id="@+id/forwardButton"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+
+            android:layout_toRightOf="@+id/previousButton"
+            android:layout_weight="1"
+            android:text="forward" />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <WebView android:id="@+id/noteswebview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ProgressBar
+            android:id="@+id/pB22"
+            style="@style/Widget.AppCompat.ProgressBar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160sp"
+            android:layout_centerVertical="true"
+            android:padding="2dip"
+            android:progress="@android:integer/config_mediumAnimTime"></ProgressBar>
+
+    </LinearLayout>
+
+
+</LinearLayout>
