@@ -60,13 +60,19 @@ public class MainActivity extends AppCompatActivity {
         mAdView.loadAd(adRequest);
 
 
+
+
       ////////////// ADDING ICON TO THE TABS OF THE PAGES ////////////////////////////////
-        tabLayout.getTabAt(0).setIcon(R.drawable.syllbus_tab);
-        tabLayout.getTabAt(1).setIcon(R.drawable.syllbus_tab);
+        tabLayout.getTabAt(0).setIcon(R.mipmap.ic_syllabus_icon);
+        //tabLayout.getTabAt(0).setIcon(R.drawable.syllbus_tab);
+        //tabLayout.getTabAt(1).setIcon(R.drawable.syllbus_tab);
+        tabLayout.getTabAt(1).setIcon(R.mipmap.ic_library_icon);
         //tabLayout.getTabAt(1).setIcon(R.drawable.questionpapers_tab); // removed this
-        tabLayout.getTabAt(2).setIcon(R.drawable.results_tab);
+        //tabLayout.getTabAt(2).setIcon(R.drawable.results_tab);
+        tabLayout.getTabAt(2).setIcon(R.mipmap.ic_results_icon);
         //tabLayout.getTabAt(2).setIcon(R.drawable.notes_tab);  // removed this (LAB videos)
-        tabLayout.getTabAt(3).setIcon(R.drawable.updates_tab2);
+        //tabLayout.getTabAt(3).setIcon(R.drawable.updates_tab2);
+        tabLayout.getTabAt(3).setIcon(R.mipmap.ic_update_icon);
 
 
        ////////////////////////////////////////////////////////////////////////////
