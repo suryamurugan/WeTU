@@ -15,8 +15,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+            </android.support.v7.widget.CardView>
+
+
             <Button
-                android:background="@drawable/button_bc"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -43,6 +52,15 @@
                 android:layout_weight="1"
                 android:text="lab videos"
                 android:textSize="30sp"/>
+            <Button
+                android:id="@+id/suggestedBooks"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Suggested Books"
+                android:textSize="30sp"/>
+
+
         </LinearLayout>
 
 
