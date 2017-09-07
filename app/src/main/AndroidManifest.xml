@@ -72,7 +72,8 @@
         <activity android:name=".ContactusActivity" />
         <activity android:name=".LibraryActivity" />
         <activity android:name=".QuestionPapersLibraryActivity" />
-        <activity android:name=".LabVideosLibraryActivity"></activity>
+        <activity android:name=".LabVideosLibraryActivity" />
+        <activity android:name=".notes_main"></activity>
     </application>
 
 </manifest>

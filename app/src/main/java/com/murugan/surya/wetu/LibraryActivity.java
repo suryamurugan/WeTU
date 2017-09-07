@@ -12,10 +12,24 @@ public class LibraryActivity extends Fragment {
 
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(final LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.activity_library, container, false);
 
+
+        ///////////////////// FOR NOTES ACTIVITY /////////////////////////////////
+        Button notesbut = (Button) rootView.findViewById(R.id.notesbutton);
+        notesbut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(),notes_main.class);
+                LibraryActivity.this.startActivity(intent);
+            }
+        });
+
+        ////////////////////////////////////////////////////////////////////////
+
+        /////////////////// FOR QUESTIONPAPAERS ///////////////////////////////////////////
         Button quepap = (Button) rootView.findViewById(R.id.questionpap);
 
         quepap.setOnClickListener(new View.OnClickListener() {

@@ -18,7 +18,7 @@ import android.webkit.URLUtil;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import static android.content.Context.DOWNLOAD_SERVICE;
@@ -139,9 +139,9 @@ public class UpdatesActivity extends Fragment {
 
 
 /////////////////////////////////////////////FOR BUTTONS////////////////////
-        final Button  forwardbutton22 = (Button) rootView.findViewById(R.id.forwardButton22);
-        final Button prevbutton22 = (Button) rootView.findViewById(R.id.previousButton22);
-        final Button reloadbutton22 = (Button) rootView.findViewById(R.id.reloadButton22);
+        final ImageView forwardbutton22 = (ImageView) rootView.findViewById(R.id.forwardButton22);
+        final ImageView prevbutton22 = (ImageView) rootView.findViewById(R.id.previousButton22);
+        final ImageView reloadbutton22 = (ImageView) rootView.findViewById(R.id.reloadButton22);
 //////////////forwaed
 
         forwardbutton22.setOnClickListener(new View.OnClickListener() {

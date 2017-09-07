@@ -3,16 +3,17 @@ package com.murugan.surya.wetu;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.CardView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 
 /**
  * Created by surya on 21/5/17.
  */
 
 public class SyllabusActivity extends Fragment {
+
 
 
     @Override
@@ -22,8 +23,10 @@ public class SyllabusActivity extends Fragment {
 
 
 
+
+
         /////////////////////////// THIS IS FOR PHY BUTTON ////////////////////////////////
-        final Button physicscycle = (Button) rootView.findViewById(R.id.pcyclebutton);
+        final CardView physicscycle = (CardView ) rootView.findViewById(R.id.pcyclebutton);
         physicscycle.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(),PhysicsmainActivity.class);
@@ -32,7 +35,7 @@ public class SyllabusActivity extends Fragment {
         });
 /////////////////////////////////////////////////////////////////////////////////////
         /////////////////////////// THIS IS FOR CHEMISTRY BUTTON ////////////////////////////////
-        final Button chemistrycycle = (Button) rootView.findViewById(R.id.chemcyclebutton);
+        final CardView chemistrycycle = (CardView) rootView.findViewById(R.id.chemcyclebutton);
         chemistrycycle.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(),ChemistrymainActivity.class);
@@ -42,7 +45,7 @@ public class SyllabusActivity extends Fragment {
 /////////////////////////////////////////////////////////////////////////////////////
         /////////////////FOR PARENT BRANCHES ///////////////////////////////////////////////////////////////
         /////////////////////////// THIS IS FOR COMPUTER SCIENCE BUTTON ////////////////////////////////
-        final Button Csecycle = (Button) rootView.findViewById(R.id.csebutton);
+        final CardView Csecycle = (CardView) rootView.findViewById(R.id.csebutton);
         Csecycle.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(),CsbranchmainActivity.class);
@@ -51,7 +54,7 @@ public class SyllabusActivity extends Fragment {
         });
 /////////////////////////////////////////////////////////////////////////////////////
         /////////////////////////// THIS IS FOR INFORMATION SCIENCE BUTTON ////////////////////////////////
-        final Button Iscycle = (Button) rootView.findViewById(R.id.isbutton);
+        final CardView Iscycle = (CardView) rootView.findViewById(R.id.isbutton);
         Iscycle.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(),IsbranchmainActivity.class);
@@ -60,7 +63,7 @@ public class SyllabusActivity extends Fragment {
         });
 /////////////////////////////////////////////////////////////////////////////////////
         /////////////////////////// THIS IS FOR ELECTRONICS AND COMMUNICATION BUTTON ////////////////////////////////
-        final Button Ececycle = (Button) rootView.findViewById(R.id.ecebutton);
+        final CardView Ececycle = (CardView) rootView.findViewById(R.id.ecebutton);
         Ececycle.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(),EcebranchmainActivity.class);
@@ -70,7 +73,7 @@ public class SyllabusActivity extends Fragment {
 /////////////////////////////////////////////////////////////////////////////////////
 
         /////////////////////////// THIS IS FOR MECHANICAL BUTTON ////////////////////////////////
-        final Button Mecycle = (Button) rootView.findViewById(R.id.mebutton);
+        final CardView Mecycle = (CardView) rootView.findViewById(R.id.mebutton);
         Mecycle.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(),MechbranchmainActivity.class);
@@ -80,7 +83,7 @@ public class SyllabusActivity extends Fragment {
 /////////////////////////////////////////////////////////////////////////////////////
 
         /////////////////////////// THIS IS FOR CIVIL BUTTON ////////////////////////////////
-        final Button cvcycle = (Button) rootView.findViewById(R.id.cvbutton);
+        final CardView cvcycle = (CardView) rootView.findViewById(R.id.cvbutton);
         cvcycle.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(),CvbranchmainActivity.class);

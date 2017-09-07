@@ -10,7 +10,7 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 
 /**
@@ -88,9 +88,9 @@ public class ResultsActivity extends Fragment {
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
         /////////////////////////////////////////////FOR BUTTONS////////////////////
-        final Button forwardbutton22 = (Button) rootView.findViewById(R.id.forwardButton12);
-        final Button prevbutton22 = (Button) rootView.findViewById(R.id.previousButton12);
-        final Button reloadbutton22 = (Button) rootView.findViewById(R.id.reloadButton12);
+        final ImageView forwardbutton22 = (ImageView) rootView.findViewById(R.id.forwardButton12);
+        final ImageView prevbutton22 = (ImageView) rootView.findViewById(R.id.previousButton12);
+        final ImageView reloadbutton22 = (ImageView) rootView.findViewById(R.id.reloadButton12);
 //////////////forwaed
 
         forwardbutton22.setOnClickListener(new View.OnClickListener() {
