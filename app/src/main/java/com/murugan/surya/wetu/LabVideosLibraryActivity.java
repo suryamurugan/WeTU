@@ -1,28 +1,40 @@
 package com.murugan.surya.wetu;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.HapticFeedbackConstants;
 import android.view.View;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 public class LabVideosLibraryActivity extends AppCompatActivity {
+
+    private AdView adViewlab;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lab_videos_library);
 
+
+        /////// Ad view
+
+        adViewlab = (AdView) findViewById(R.id.adViewlab);
+        AdRequest requestlab = new AdRequest.Builder().build();
+        adViewlab.loadAd(requestlab);
+
         ////////////// FOR LAB VIDEOS BROWSER WORK WITH SCROLL SHIT AND VIDEO SHIT ???
 
 
         final WebView webViewnotes = (WebView) findViewById(R.id.noteswebview);
-        final Button previousButton =(Button) findViewById(R.id.previousButton);
+        final ImageView previousButton =(ImageView) findViewById(R.id.previousButton);
         webViewnotes.getSettings().setLayoutAlgorithm(WebSettings.LayoutAlgorithm.NARROW_COLUMNS);
 
         webViewnotes.getSettings().setSavePassword(true);
@@ -63,9 +75,9 @@ public class LabVideosLibraryActivity extends AppCompatActivity {
 
         //////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////FOR BUTTONS////////////////////
-        final Button  forwardbutton = (Button) findViewById(R.id.forwardButton);
-        final Button prevbutton = (Button) findViewById(R.id.previousButton);
-        final Button reloadbutton = (Button) findViewById(R.id.reloadButton);
+        final ImageView  forwardbutton = (ImageView) findViewById(R.id.forwardButton);
+        final ImageView prevbutton = (ImageView) findViewById(R.id.previousButton);
+        final ImageView reloadbutton = (ImageView) findViewById(R.id.reloadButton);
 //////////////forwaed
 
         forwardbutton.setOnClickListener(new View.OnClickListener() {

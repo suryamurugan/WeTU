@@ -1,15 +1,12 @@
-<android.support.v4.widget.NestedScrollView
+<LinearLayout
+    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.murugan.surya.wetu.MainActivity">
 
-    <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-        android:weightSum="1">
+
 
 
 
@@ -30,78 +27,134 @@
 
 
 </LinearLayout>
-        <TextView
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="15sp"
-            android:text="select the subjects"
-            android:textAlignment="center"/>
-        <Button
-            android:id="@+id/cvengineeringmaths3button"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Engineering Mathematics –III"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvstrengthofmatbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Strength of Materials"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvfluidmechbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Fluid Mechanics"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvbasicsurbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Basic Surveying"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvengineeringgeobutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Engineering Geology"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvbuildingmaterialsandconsbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Building Materials and Construction"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvbuildingmaterialstestinglabbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Building Materials Testing Laboratory"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvbasicsurveyingprabutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Basic Surveying Practice"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="15sp"
+                android:text="select the subjects"
+                android:textAlignment="center"/>
+            <Button
+                android:id="@+id/cvengineeringmaths3button"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="Engineering Mathematics –III"
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
+            <Button
+                android:id="@+id/cvstrengthofmatbutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="Strength of Materials"
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
+            <Button
+                android:id="@+id/cvfluidmechbutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="Fluid Mechanics"
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
+            <Button
+                android:id="@+id/cvbasicsurbutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="Basic Surveying"
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
+            <Button
+                android:id="@+id/cvengineeringgeobutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="Engineering Geology"
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
+            <Button
+                android:id="@+id/cvbuildingmaterialsandconsbutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="Building Materials and Construction"
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
+            <Button
+                android:id="@+id/cvbuildingmaterialstestinglabbutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="Building Materials Testing Laboratory"
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
+            <Button
+                android:id="@+id/cvbasicsurveyingprabutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="Basic Surveying Practice"
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
 
     </LinearLayout>
 
-
-
-</android.support.v4.widget.NestedScrollView>

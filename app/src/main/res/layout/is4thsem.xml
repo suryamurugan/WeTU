@@ -1,15 +1,11 @@
-<android.support.v4.widget.NestedScrollView
+<LinearLayout
+    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.murugan.surya.wetu.MainActivity$PlaceholderFragment">
 
-    <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-        android:weightSum="1">
 
 
 
@@ -33,73 +29,125 @@
 
 </LinearLayout>
 
-        <Button
-            android:id="@+id/isengineeringmathematics4button"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Engineering Mathematics-IV"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/isgraphtheoryandcombinatoricsbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="graph theory and combination"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/isdesignandanalysisofalgorithmsbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="design and analysis of algorithms"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/infosunixandshellbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Unix and Shell Programming"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/ismicroprocessorsbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="microprocessors"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/iscomporgbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="computer organization"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/isdesignandanalysisofalgorithmslaboratorybutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="design and analysis of algorithms"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/ismicroprocessorslaboratorybutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="microprocessors lab"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/isengineeringmathematics4button"
+                            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"
+                            android:text="Engineering Mathematics-IV"
+                            android:textAlignment="center"
+                            android:textSize="22sp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/mainback"/>
+                        <Button
+                            android:id="@+id/isgraphtheoryandcombinatoricsbutton"
+                            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"
+                            android:text="graph theory and combination"
+                            android:textAlignment="center"
+                            android:textSize="22sp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/mainback"/>
+                        <Button
+                            android:id="@+id/isdesignandanalysisofalgorithmsbutton"
+                            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"
+                            android:text="design and analysis of algorithms"
+                            android:textAlignment="center"
+                            android:textSize="22sp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/mainback"/>
+                        <Button
+                            android:id="@+id/infosunixandshellbutton"
+                            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"
+                            android:text="Unix and Shell Programming"
+                            android:textAlignment="center"
+                            android:textSize="22sp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/mainback"/>
+                        <Button
+                            android:id="@+id/ismicroprocessorsbutton"
+                            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"
+                            android:text="microprocessors"
+                            android:textAlignment="center"
+                            android:textSize="22sp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/mainback"/>
+                        <Button
+                            android:id="@+id/iscomporgbutton"
+                            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"
+                            android:text="computer organization"
+                            android:textAlignment="center"
+                            android:textSize="22sp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/mainback"/>
+                        <Button
+                            android:id="@+id/isdesignandanalysisofalgorithmslaboratorybutton"
+                            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"
+                            android:text="design and analysis of algorithms"
+                            android:textAlignment="center"
+                            android:textSize="22sp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/mainback"/>
+                        <Button
+                            android:id="@+id/ismicroprocessorslaboratorybutton"
+                            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"
+                            android:text="microprocessors lab"
+                            android:textAlignment="center"
+                            android:textSize="22sp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/mainback"/>
+
+                        <Button
+                            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"/>
+
+
+                    </LinearLayout>
+
+
+            </ScrollView>
+
+
+
+
 
     </LinearLayout>
 
-
-
-</android.support.v4.widget.NestedScrollView>

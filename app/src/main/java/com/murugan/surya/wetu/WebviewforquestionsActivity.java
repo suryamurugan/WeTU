@@ -17,11 +17,16 @@ import android.webkit.WebViewClient;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 import static android.widget.Toast.LENGTH_LONG;
 import static android.widget.Toast.makeText;
 
 
 public class WebviewforquestionsActivity extends AppCompatActivity {
+
+    private AdView adViewQues;
 
 
     @Override
@@ -40,6 +45,12 @@ public class WebviewforquestionsActivity extends AppCompatActivity {
         mWebView.reload();
 
         Bundle extras = getIntent().getExtras();
+
+        ////For advied
+
+        adViewQues = (AdView) findViewById(R.id.adViewQ);
+        AdRequest requestQ = new AdRequest.Builder().build();
+        adViewQues.loadAd(requestQ);
 
 
 ///////////////////////////////////////////////THIS IS FOR PROGRESS BAR//////////////////////////////////////////

@@ -1,16 +1,10 @@
-<android.support.v4.widget.NestedScrollView
+<LinearLayout
+    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.murugan.surya.wetu.MainActivity">
-
-    <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-        android:weightSum="1">
-
 
 
 <LinearLayout
@@ -31,74 +25,124 @@
 
 
 </LinearLayout>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-        <Button
-            android:id="@+id/cvmanagementandentrepreneurshipbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Management and Entrepreneurship Syllabus"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvdesignofrccstructuralelementsbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Design of RCC Structural Elements Syllabus"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvstructuralanalysis2button"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Structural Analysis-II "
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvgeotechengbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Geotechnical Engineering-I "
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvhydroandirengbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Hydrology and Irrigation Engineering"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvtransporteng123button"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Transportation Engineering-I"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvhydraulicsandhydraulicmachinerylabbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Hydraulics and Hydraulic Machinery Lab "
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvcomputeraideddesignlabbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Computer Aided Design Lab"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                    <Button
+                        android:id="@+id/cvmanagementandentrepreneurshipbutton"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="70sp"
+                        android:text="Management and Entrepreneurship Syllabus"
+                        android:textAlignment="center"
+                        android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                    <Button
+                        android:id="@+id/cvdesignofrccstructuralelementsbutton"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="70sp"
+                        android:text="Design of RCC Structural Elements Syllabus"
+                        android:textAlignment="center"
+                        android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                    <Button
+                        android:id="@+id/cvstructuralanalysis2button"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="70sp"
+                        android:text="Structural Analysis-II "
+                        android:textAlignment="center"
+                        android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                    <Button
+                        android:id="@+id/cvgeotechengbutton"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="70sp"
+                        android:text="Geotechnical Engineering-I "
+                        android:textAlignment="center"
+                        android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                    <Button
+                        android:id="@+id/cvhydroandirengbutton"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="70sp"
+                        android:text="Hydrology and Irrigation Engineering"
+                        android:textAlignment="center"
+                        android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                    <Button
+                        android:id="@+id/cvtransporteng123button"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="70sp"
+                        android:text="Transportation Engineering-I"
+                        android:textAlignment="center"
+                        android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                    <Button
+                        android:id="@+id/cvhydraulicsandhydraulicmachinerylabbutton"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="70sp"
+                        android:text="Hydraulics and Hydraulic Machinery Lab "
+                        android:textAlignment="center"
+                        android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                    <Button
+                        android:id="@+id/cvcomputeraideddesignlabbutton"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="70sp"
+                        android:text="Computer Aided Design Lab"
+                        android:textAlignment="center"
+                        android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+
+                <Button
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"/>
+
+            </LinearLayout>
+
+            </ScrollView>
+
+
 
         </LinearLayout>
 
 
-
-</android.support.v4.widget.NestedScrollView>

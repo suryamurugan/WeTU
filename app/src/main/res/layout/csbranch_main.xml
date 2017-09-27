@@ -1,15 +1,12 @@
-<android.support.v4.widget.NestedScrollView
+<LinearLayout
+    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.murugan.surya.wetu.MainActivity">
 
-    <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-        android:weightSum="1">
+
 
 
 
@@ -31,59 +28,104 @@
 
 
 </LinearLayout>
-        <TextView
+
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="15sp"
-            android:text="select the semester no."
-            android:textAlignment="center"/>
-        <Button
-            android:id="@+id/thirdbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="3rd Semester"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/fourthbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="4th semester"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/fifthbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="5th semester"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/sixthbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="6th semester"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/seventhbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="7th semester"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/eigthbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="8th semester"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
+            android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="15sp"
+                            android:text="select the semester no."
+                            android:textAlignment="center"/>
+
+                        <Button
+                            android:id="@+id/thirdbutton"
+                            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"
+                            android:text="3rd Semester"
+                            android:textAlignment="center"
+                            android:textSize="22sp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/mainback"/>
+                        <Button
+                            android:id="@+id/fourthbutton"
+                            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"
+                            android:text="4th semester"
+                            android:textAlignment="center"
+                            android:textSize="22sp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/mainback"/>
+
+
+                        <Button
+                            android:id="@+id/fifthbutton"
+                            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"
+                            android:text="5th semester"
+                            android:textAlignment="center"
+                            android:textSize="22sp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/mainback"/>
+                        <Button
+                            android:id="@+id/sixthbutton"
+                            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"
+                            android:text="6th semester"
+                            android:textAlignment="center"
+                            android:textSize="22sp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/mainback"/>
+                        <Button
+                            android:id="@+id/seventhbutton"
+                            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"
+                            android:text="7th semester"
+                            android:textAlignment="center"
+                            android:textSize="22sp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/mainback"/>
+                        <Button
+                            android:id="@+id/eigthbutton"
+                            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"
+                            android:text="8th semester"
+                            android:textAlignment="center"
+                            android:textSize="22sp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/mainback"/>
+
+
+
+                </LinearLayout>
+
+        </ScrollView>
+
+
 
 
 
@@ -94,4 +136,3 @@
 
 
 
-</android.support.v4.widget.NestedScrollView>

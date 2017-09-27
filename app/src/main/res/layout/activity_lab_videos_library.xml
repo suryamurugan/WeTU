@@ -1,81 +1,135 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.murugan.surya.wetu.MainActivity"
     android:orientation="vertical">
 
-
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="35sp"
+        android:layout_height="25dp"
         android:orientation="horizontal"
+
+        android:layout_margin="2dp"
         android:background="@color/colorPrimary">
 
+        <android.support.v7.widget.CardView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:elevation="3dp"
+            app:cardBackgroundColor="@color/colorPrimary">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/previousButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+
+                    android:src="@drawable/back_icon"
+                    android:layout_margin="4dp"
+                    />
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF"
+                    />
+
+                <ImageView
+                    android:id="@+id/reloadButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="4dp"
+                    android:src="@drawable/refresh_button"/>
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF"
+                    />
+
+                <ImageView
+                    android:id="@+id/forwardButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="4dp"
+                    android:src="@drawable/ic_forward_white"/>
 
 
-        <Button
-            android:id="@+id/previousButton"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="201dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
 
-            android:layout_weight="1"
-            android:text="back"
-            android:textAlignment="center"/>
+            </LinearLayout>
 
-        <Button
-            android:id="@+id/reloadButton"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="204dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
+        </android.support.v7.widget.CardView>
 
-            android:layout_toRightOf="@+id/previousButton"
-            android:layout_weight="1"
-            android:text="refresh" />
 
-        <Button
-            android:id="@+id/forwardButton"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="204dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-
-            android:layout_toRightOf="@+id/previousButton"
-            android:layout_weight="1"
-            android:text="forward" />
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <WebView android:id="@+id/noteswebview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <ProgressBar
+                android:id="@+id/pB22"
+                style="@style/Widget.AppCompat.ProgressBar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="160sp"
+                android:layout_centerVertical="true"
+                android:padding="2dip"
+                android:progress="@android:integer/config_mediumAnimTime"></ProgressBar>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
 
 
 
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-
-
-        <WebView android:id="@+id/noteswebview"
+        android:layout_height="wrap_content">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adViewlab"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
-        <ProgressBar
-            android:id="@+id/pB22"
-            style="@style/Widget.AppCompat.ProgressBar"
-            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="160sp"
-            android:layout_centerVertical="true"
-            android:padding="2dip"
-            android:progress="@android:integer/config_mediumAnimTime"></ProgressBar>
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="end|bottom"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_idformain">
+        </com.google.android.gms.ads.AdView>
+
 
     </LinearLayout>
+
+
 
 
 </LinearLayout>

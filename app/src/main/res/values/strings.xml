@@ -31,6 +31,8 @@
     </string>
 
 
-    <string name="banner_ad_unit_id">ca-app-pub-7905385847988895/3665498962</string>
+    <string name="banner_ad_unit_idformain">ca-app-pub-7905385847988895/3665498962</string>
+
+    <string name="banner_ad_unit_idforweb">ca-app-pub-7905385847988895/3665498962</string>
 
 </resources>

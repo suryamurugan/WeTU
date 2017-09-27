@@ -6,12 +6,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-public class PhysicsmainActivity extends AppCompatActivity {
+public class PhysicsmainActivity extends AppCompatActivity  {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.physics_main);
+
 
 
 
@@ -50,6 +51,8 @@ public class PhysicsmainActivity extends AppCompatActivity {
             }
         });
         ////////////////////////////////////////////////////////////////////////
+
+
 
         //////////////////////////mechbut ///////////////////////////////
         final Button mechBut = (Button) findViewById(R.id.mechButton);

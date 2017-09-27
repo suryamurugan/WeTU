@@ -16,11 +16,16 @@ import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 import static android.widget.Toast.LENGTH_LONG;
 import static android.widget.Toast.makeText;
 
 
 public class WebviewActivity extends AppCompatActivity {
+
+    private AdView mAdViewWeb;
 
 
     @Override
@@ -59,7 +64,11 @@ public class WebviewActivity extends AppCompatActivity {
             }
         });
 
+            /////////////// FOR AD VIEW //
 
+            mAdViewWeb = (AdView) findViewById(R.id.adViewW);
+        AdRequest request= new AdRequest.Builder().build();
+        mAdViewWeb.loadAd(request);
 
 
         /////////////THIS IS FOR DDOWNLOADING////////////////////////

@@ -1,15 +1,10 @@
-<android.support.v4.widget.NestedScrollView
+<LinearLayout
+    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.murugan.surya.wetu.MainActivity">
-
-    <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-        android:weightSum="1">
 
 
 
@@ -30,74 +25,125 @@
 
 
 </LinearLayout>
-        <Button
-            android:id="@+id/medesignofmachineelements1button"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Design of Machine Elements-I"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/meenergyengineeringbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Energy Engineering"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/medynamicsofmachinesbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Dynamics of Machines"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/memanufacturingprocess3button"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Manufacturing Process III"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/meturbomachinesbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Turbo Machines"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/mefluidmechanicsandmachineslaboratorybutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="FLUID MECHANICS AND MACHINES LABORATORY"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/meenergyconversionengineeringlaboratorybutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="ENERGY CONVERSION ENGINEERING LABORATORY"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/memanagementandentrepreneurshipbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Management and Entrepreneurship"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                            <Button
+                                android:id="@+id/medesignofmachineelements1button"
+                                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="70sp"
+                                android:text="Design of Machine Elements-I"
+                                android:textAlignment="center"
+                                android:textSize="22sp"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:background="@color/mainback"/>
+                            <Button
+                                android:id="@+id/meenergyengineeringbutton"
+                                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="70sp"
+                                android:text="Energy Engineering"
+                                android:textAlignment="center"
+                                android:textSize="22sp"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:background="@color/mainback"/>
+                            <Button
+                                android:id="@+id/medynamicsofmachinesbutton"
+                                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="70sp"
+                                android:text="Dynamics of Machines"
+                                android:textAlignment="center"
+                                android:textSize="22sp"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:background="@color/mainback"/>
+                            <Button
+                                android:id="@+id/memanufacturingprocess3button"
+                                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="70sp"
+                                android:text="Manufacturing Process III"
+                                android:textAlignment="center"
+                                android:textSize="22sp"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:background="@color/mainback"/>
+                            <Button
+                                android:id="@+id/meturbomachinesbutton"
+                                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="70sp"
+                                android:text="Turbo Machines"
+                                android:textAlignment="center"
+                                android:textSize="22sp"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:background="@color/mainback"/>
+                            <Button
+                                android:id="@+id/mefluidmechanicsandmachineslaboratorybutton"
+                                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="70sp"
+                                android:text="FLUID MECHANICS AND MACHINES LABORATORY"
+                                android:textAlignment="center"
+                                android:textSize="22sp"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:background="@color/mainback"/>
+                            <Button
+                                android:id="@+id/meenergyconversionengineeringlaboratorybutton"
+                                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="70sp"
+                                android:text="ENERGY CONVERSION ENGINEERING LABORATORY"
+                                android:textAlignment="center"
+                                android:textSize="22sp"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:background="@color/mainback"/>
+
+                            <Button
+                                android:id="@+id/memanagementandentrepreneurshipbutton"
+                                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="70sp"
+                                android:text="Management and Entrepreneurship"
+                                android:textAlignment="center"
+                                android:textSize="22sp"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:background="@color/mainback"/>
+
+                            <Button
+                                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="70sp"/>
 
 
-          </LinearLayout>
+                    </LinearLayout>
+
+
+            </ScrollView>
 
 
 
-</android.support.v4.widget.NestedScrollView>
+
+    </LinearLayout>
+

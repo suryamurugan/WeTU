@@ -1,15 +1,11 @@
-<android.support.v4.widget.NestedScrollView
+<LinearLayout
+    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.murugan.surya.wetu.MainActivity">
 
-    <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-        android:weightSum="1">
 
 
 
@@ -31,6 +27,17 @@
 
 
 </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
             <Button
                 android:id="@+id/cvadvanceconcretetechnology23button"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
@@ -39,6 +46,10 @@
                 android:text="advance concrete technology"
                 android:textAlignment="center"
                 android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
             <Button
                 android:id="@+id/cvdesignanddrawingofsteelstructuresbutton"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
@@ -47,6 +58,10 @@
                 android:text="design and drawing of steel structures"
                 android:textAlignment="center"
                 android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
             <Button
                 android:id="@+id/cvadvanceprestrconcretestrbutton"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
@@ -54,6 +69,10 @@
                 android:layout_height="70sp"
                 android:text="advance prestressed concrete structures"
                 android:textAlignment="center" android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
             <Button
                 android:id="@+id/cvadvancedfoundationdesignbutton"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
@@ -62,6 +81,10 @@
                 android:text="d: advanced foundation design "
                 android:textAlignment="center"
                 android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
             <Button
                 android:id="@+id/cvpavementdesignbutton"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
@@ -70,6 +93,10 @@
                 android:text="d: pavement design"
                 android:textAlignment="center"
                 android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
             <Button
                 android:id="@+id/cvearthquakeresistdesignofstrbutton"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
@@ -78,6 +105,10 @@
                 android:text="d: earthquake resistant design of structures "
                 android:textAlignment="center"
                 android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
             <Button
                 android:id="@+id/cvindustrialwastewatertreatmentbutton"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
@@ -86,6 +117,10 @@
                 android:text="d: industrial wastewater treatment"
                 android:textAlignment="center"
                 android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
             <Button
                 android:id="@+id/cvqualitymanagementsystemincivilengineeringbutton"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
@@ -94,6 +129,10 @@
                 android:text="d: quality management system in civil engineering "
                 android:textAlignment="center"
                 android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
             <Button
                 android:id="@+id/cvfiniteelementanaiiibutton"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
@@ -102,6 +141,10 @@
                 android:text="e: finite element analysis "
                 android:textAlignment="center"
                 android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
             <Button
                 android:id="@+id/cvreinforcesearthstructuresbutton"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
@@ -110,6 +153,10 @@
                 android:text="e: reinforces earth structures"
                 android:textAlignment="center"
                 android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
             <Button
                 android:id="@+id/cvurbantransportplanningbutton"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
@@ -118,6 +165,10 @@
                 android:text="e: urban transport planning"
                 android:textAlignment="center"
                 android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
             <Button
                 android:id="@+id/cvgeographicinformationsystembutton"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
@@ -126,6 +177,10 @@
                 android:text="e: geographic information system"
                 android:textAlignment="center"
                 android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
             <Button
                 android:id="@+id/cvadvancedesignofsteelstructuresbutton"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
@@ -134,6 +189,10 @@
                 android:text="e: advance design of steel structures "
                 android:textAlignment="center"
                 android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
             <Button
                 android:id="@+id/cvwaterresourcesengineeringbutton"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
@@ -142,6 +201,10 @@
                 android:text="e: water resources engineering"
                 android:textAlignment="center"
                 android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
             <Button
                 android:id="@+id/cvenvironmentalimpactassessmentbutton"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
@@ -151,10 +214,23 @@
                 android:textAlignment="center"
                 android:textSize="22sp"/>
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"/>
+
+        </LinearLayout>
+
+        </ScrollView>
+
+
 
 
     </LinearLayout>
 
 
-
-</android.support.v4.widget.NestedScrollView>

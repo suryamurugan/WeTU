@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
       ////////////// ADDING ICON TO THE TABS OF THE PAGES ////////////////////////////////
         tabLayout.getTabAt(0).setIcon(R.mipmap.ic_syllabus_icon);
         //tabLayout.getTabAt(0).setIcon(R.drawable.syllbus_tab);

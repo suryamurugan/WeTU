@@ -1,15 +1,10 @@
-<android.support.v4.widget.NestedScrollView
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.murugan.surya.wetu.MainActivity">
-
-    <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
     android:orientation="vertical"
-        android:weightSum="1">
+    tools:context="com.murugan.surya.wetu.MainActivity">
 
 
 
@@ -31,98 +26,159 @@
 
 
 </LinearLayout>
-        <Button
-            android:id="@+id/csprogramminglanguagesbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Unix System Programming"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button android:id="@+id/cscompilerdesignbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Compiler Design"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button android:id="@+id/cscomputernetworks2button"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Computer Networks-II"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button android:id="@+id/cscomputergraphicsandvisualizationbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Computer Graphics and Visualization"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button android:id="@+id/csoperationsresearchbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Operations Research"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button android:id="@+id/cssignalsandsystemsbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Signals and Systems"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button android:id="@+id/csdatacompressionbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Data Compression"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button android:id="@+id/cspatternrecognitionbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Pattern Recognition"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button android:id="@+id/csstochasticmodelsandapplicationsbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Stochastic Models and Applications"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/csprogramming2languagesbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Programming Languages"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cscomputergraphicsandvisualizationlaboratortybutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="COMPUTER GRAPHICS AND VISUALIZATION LABORATORY"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
 
-        <Button
-            android:id="@+id/csunixsystemsprogrammingandcompilerdesignlaboratorybutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="UNIX SYSTEMS PROGRAMMING AND COMPILER DESIGN LABORATORY"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-\
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/csprogramminglanguagesbutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="Unix System Programming"
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
+            <Button android:id="@+id/cscompilerdesignbutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="Compiler Design"
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
+            <Button android:id="@+id/cscomputernetworks2button"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="Computer Networks-II"
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
+            <Button android:id="@+id/cscomputergraphicsandvisualizationbutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="Computer Graphics and Visualization"
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
+            <Button android:id="@+id/csoperationsresearchbutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="Operations Research"
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
+            <Button android:id="@+id/cssignalsandsystemsbutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="Signals and Systems"
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
+            <Button android:id="@+id/csdatacompressionbutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="Data Compression"
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <Button android:id="@+id/cspatternrecognitionbutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="Pattern Recognition"
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
+            <Button android:id="@+id/csstochasticmodelsandapplicationsbutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="Stochastic Models and Applications"
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
+            <Button
+                android:id="@+id/csprogramming2languagesbutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="Programming Languages"
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
+            <Button
+                android:id="@+id/cscomputergraphicsandvisualizationlaboratortybutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="COMPUTER GRAPHICS AND VISUALIZATION LABORATORY"
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
+
+            <Button
+                android:id="@+id/csunixsystemsprogrammingandcompilerdesignlaboratorybutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"
+                android:text="UNIX SYSTEMS PROGRAMMING AND COMPILER DESIGN LABORATORY"
+                android:textAlignment="center"
+                android:textSize="22sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/mainback"/>
+            <Button
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70sp"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
     </LinearLayout>
 
 
-
-</android.support.v4.widget.NestedScrollView>

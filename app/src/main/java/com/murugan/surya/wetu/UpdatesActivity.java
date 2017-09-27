@@ -215,7 +215,7 @@ public class UpdatesActivity extends Fragment {
                 ActivityCompat.requestPermissions(getActivity(), new String[]{permission}, requestCode);
             }
         } else {
-            Toast.makeText(getContext(), "" + permission + " is already granted.", Toast.LENGTH_SHORT).show();
+            //Toast.makeText(getContext(), "" + permission + " is already granted.", Toast.LENGTH_SHORT).show();
         }
     }
     //////////////////////////////

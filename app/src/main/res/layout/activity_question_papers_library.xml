@@ -1,79 +1,89 @@
-<android.support.v4.widget.NestedScrollView
+<LinearLayout
+    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.murugan.surya.wetu.MainActivity">
 
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="wrap_content">
 
-        <LinearLayout
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="72dp"
-            android:orientation="horizontal"
-            android:weightSum="1">
-
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="80sp"
-                android:layout_height="match_parent"
-                android:layout_marginTop="10sp"
-                android:layout_marginLeft="1sp"
-                android:src="@drawable/ques" />
-
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="match_parent"
-                android:layout_height="38sp"
-                android:layout_marginTop="18sp"
-                android:text="Question papers"
-                android:textStyle="normal"
-                android:textAllCaps="true"
-                android:textSize="30sp" />
+            android:layout_height="wrap_content"
+            android:background="@color/mainback"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Question Papers "
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="32sp"
+            android:textStyle="bold" />
 
 
-        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
         <Button
             android:id="@+id/qpvtuofficial"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:layout_marginTop="30sp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
             android:text="vtu official site"
-            android:textAlignment="center"
-            android:textSize="25sp"
+            android:textSize="22sp"
             />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/mainback" />
         <Button
             android:id="@+id/qpvtures"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="vtu resource"
-            android:textAlignment="center"
-            android:textSize="25sp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:text="Vtu resource"
+            android:textSize="22sp"
             />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/mainback" />
         <Button
             android:id="@+id/qpvtubud"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="vtu buddy"
-            android:textAlignment="center"
-            android:textSize="25sp"/>
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:text="VTU BUDDY"
+            android:textSize="22sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/mainback" />
 
         <Button
             android:id="@+id/qpsid"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="stupid sid"
-            android:textAlignment="center"
-            android:textSize="25sp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:text="Stupid Sid"
+            android:textSize="22sp"
             />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/mainback" />
+
 
     </LinearLayout>
 
-</android.support.v4.widget.NestedScrollView>
+
+    </LinearLayout>

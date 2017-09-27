@@ -1,15 +1,11 @@
-<android.support.v4.widget.NestedScrollView
+<LinearLayout
+    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.murugan.surya.wetu.MainActivity">
 
-    <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-        android:weightSum="1">
 
 
 
@@ -33,107 +29,174 @@
 
 
 </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-        <Button
-            android:id="@+id/wirelesscommunicationbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Wireless Communication"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/digitalswitchingsystemsbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Digital Switching Systems"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/distributedsystemsbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Distributed Systems"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/networksecuritybutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Network Security"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/opticalnetworksbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Optical Networks"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/highperformancecomputingnetworksbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="High Performance Computing Networks"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/internetengineeringbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Internet Engineering"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/multimediacommunicationbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Multimedia Communication"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/realtimeoperatingsystemsbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Real Time Operating Systems"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/gsmbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="GSM"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/adhocwirelessnetworksbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Adhoc Wireless Networks"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/opticalcomputingbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Optical Computing"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
+
+                <Button
+                    android:id="@+id/wirelesscommunicationbutton"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:text="Wireless Communication"
+                    android:textAlignment="center"
+                    android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                <Button
+                    android:id="@+id/digitalswitchingsystemsbutton"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:text="Digital Switching Systems"
+                    android:textAlignment="center"
+                    android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                <Button
+                    android:id="@+id/distributedsystemsbutton"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:text="Distributed Systems"
+                    android:textAlignment="center"
+                    android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                <Button
+                    android:id="@+id/networksecuritybutton"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:text="Network Security"
+                    android:textAlignment="center"
+                    android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                <Button
+                    android:id="@+id/opticalnetworksbutton"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:text="Optical Networks"
+                    android:textAlignment="center"
+                    android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                <Button
+                    android:id="@+id/highperformancecomputingnetworksbutton"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:text="High Performance Computing Networks"
+                    android:textAlignment="center"
+                    android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                <Button
+                    android:id="@+id/internetengineeringbutton"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:text="Internet Engineering"
+                    android:textAlignment="center"
+                    android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                <Button
+                    android:id="@+id/multimediacommunicationbutton"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:text="Multimedia Communication"
+                    android:textAlignment="center"
+                    android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                <Button
+                    android:id="@+id/realtimeoperatingsystemsbutton"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:text="Real Time Operating Systems"
+                    android:textAlignment="center"
+                    android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                <Button
+                    android:id="@+id/gsmbutton"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:text="GSM"
+                    android:textAlignment="center"
+                    android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                <Button
+                    android:id="@+id/adhocwirelessnetworksbutton"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:text="Adhoc Wireless Networks"
+                    android:textAlignment="center"
+                    android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                <Button
+                    android:id="@+id/opticalcomputingbutton"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:text="Optical Computing"
+                    android:textAlignment="center"
+                    android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+
+                <Button
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"/>
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
 
 
     </LinearLayout>
 
-
-
-</android.support.v4.widget.NestedScrollView>

@@ -1,15 +1,10 @@
-<android.support.v4.widget.NestedScrollView
+<LinearLayout
+    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.murugan.surya.wetu.MainActivity">
-
-    <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-        android:weightSum="1">
 
 
 
@@ -31,103 +26,166 @@
 
 
 </LinearLayout>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="15sp"
-            android:text="select the subjects"
-            android:textAlignment="center"/>
-        <Button
-            android:id="@+id/meengineeringmathematics3button"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Engineering Mathematics –III"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/memateriicalsciencebutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Materials Science"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/mebasicthermodynabutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Basic Thermodynamics"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/memechanicsofmaterialsbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Mechanics of Materials"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/memetalCastingAndWeldingbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Metal Casting and Welding"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/memachineToolsAndOperationsbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Machine Tools and Operations"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/mecomputeraidedmachinedrawingbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Computer Aided Machine Drawing"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/memechanicalMeasurementsAndMetrologybutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Mechanical Measurements and Metrology"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/mematerialsTestingLabbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Materials Testing Lab"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/memechanicalmeasurementsandmetrologylabbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Mechanical Measurements and Metrology Lab"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/mefoundryAndForgingLabbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Foundry and Forging Lab"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="15sp"
+                                android:text="select the subjects"
+                                android:textAlignment="center"/>
+                            <Button
+                                android:id="@+id/meengineeringmathematics3button"
+                                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="70sp"
+                                android:text="Engineering Mathematics –III"
+                                android:textAlignment="center"
+                                android:textSize="22sp"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:background="@color/mainback"/>
+                            <Button
+                                android:id="@+id/memateriicalsciencebutton"
+                                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="70sp"
+                                android:text="Materials Science"
+                                android:textAlignment="center"
+                                android:textSize="22sp"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:background="@color/mainback"/>
+                            <Button
+                                android:id="@+id/mebasicthermodynabutton"
+                                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="70sp"
+                                android:text="Basic Thermodynamics"
+                                android:textAlignment="center"
+                                android:textSize="22sp"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:background="@color/mainback"/>
+                            <Button
+                                android:id="@+id/memechanicsofmaterialsbutton"
+                                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="70sp"
+                                android:text="Mechanics of Materials"
+                                android:textAlignment="center"
+                                android:textSize="22sp"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:background="@color/mainback"/>
+                            <Button
+                                android:id="@+id/memetalCastingAndWeldingbutton"
+                                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="70sp"
+                                android:text="Metal Casting and Welding"
+                                android:textAlignment="center"
+                                android:textSize="22sp"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:background="@color/mainback"/>
+                            <Button
+                                android:id="@+id/memachineToolsAndOperationsbutton"
+                                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="70sp"
+                                android:text="Machine Tools and Operations"
+                                android:textAlignment="center"
+                                android:textSize="22sp"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:background="@color/mainback"/>
+                            <Button
+                                android:id="@+id/mecomputeraidedmachinedrawingbutton"
+                                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="70sp"
+                                android:text="Computer Aided Machine Drawing"
+                                android:textAlignment="center"
+                                android:textSize="22sp"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:background="@color/mainback"/>
+                            <Button
+                                android:id="@+id/memechanicalMeasurementsAndMetrologybutton"
+                                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="70sp"
+                                android:text="Mechanical Measurements and Metrology"
+                                android:textAlignment="center"
+                                android:textSize="22sp"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:background="@color/mainback"/>
+                            <Button
+                                android:id="@+id/mematerialsTestingLabbutton"
+                                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="70sp"
+                                android:text="Materials Testing Lab"
+                                android:textAlignment="center"
+                                android:textSize="22sp"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:background="@color/mainback"/>
+                            <Button
+                                android:id="@+id/memechanicalmeasurementsandmetrologylabbutton"
+                                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="70sp"
+                                android:text="Mechanical Measurements and Metrology Lab"
+                                android:textAlignment="center"
+                                android:textSize="22sp"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:background="@color/mainback"/>
+                            <Button
+                                android:id="@+id/mefoundryAndForgingLabbutton"
+                                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="70sp"
+                                android:text="Foundry and Forging Lab"
+                                android:textAlignment="center"
+                                android:textSize="22sp"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="2dp"
+                                android:background="@color/mainback"/>
+
+                            <Button
+                                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                                android:layout_width="match_parent"
+                                android:layout_height="70sp"/>
+
+
+                    </LinearLayout>
+
+
+            </ScrollView>
+
+
 
 
     </LinearLayout>
 
-
-
-</android.support.v4.widget.NestedScrollView>

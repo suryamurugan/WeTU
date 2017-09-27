@@ -1,15 +1,12 @@
-<android.support.v4.widget.NestedScrollView
+<LinearLayout
+    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.murugan.surya.wetu.MainActivity">
 
-    <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-        android:weightSum="1">
+
 
 
 
@@ -31,172 +28,270 @@
 
 
 </LinearLayout>
-        <Button
-            android:id="@+id/cvenvironmentalengineering2button"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="environmental engineering-2"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvdesignofsteelstructuresbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="design of steel structures"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvestimationandvaluationbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="estimation and valuation "
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvdesignofprestressedconcretestructuresbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="design of pre-stressed concrete structures"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvmatrixmethodsofstructuralanalysisbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="b: matrix methods of structural analysiss"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvadvancedesignofrcstructuresbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="b: advance design of rc structures "
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvdesignofmasonrystructuresbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="b: design of masonry structures "
-            android:textAlignment="center"
-            android:textSize="22sp"/>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-        <Button
-            android:id="@+id/cvearthandearthreatiningstructures112button"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="b: earth and earth retaining structures "
-            android:textAlignment="center"
-            android:textSize="22sp" />
-        <Button
-            android:id="@+id/cvhighwaygeometricdesign1button"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="b: highway geometric design I"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvopenchannelhydraulicsbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="b: open channel hydraulics "
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvsolidwastemanagementbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="b: solid waste management"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvnumericalmethodsincivilengineeringbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="c: numerical methods in civil engineering "
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvrockmechanics1button"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="c: rock mechanics I"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvpavementmaterialsandconstructionbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="c: pavement materials and construction"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvphotogrammetryandremotebutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="c: photogrammetry and remote"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvairpollutionandcontrolbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="c: air  pollution and control "
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvdesignanddraiwingofbridgesbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="c: design and drawiing of bridges"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvstructuraldynamicsbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="c: structural dynamics  "
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvenvironmentalengineeringlabbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="environmental engineering lab"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/cvconcreteandhighwaymaterialslabbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="concrete and highway materials lab"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/cvenvironmentalengineering2button"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="70sp"
+                        android:text="environmental engineering-2"
+                        android:textAlignment="center"
+                        android:textSize="22sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/mainback"/>
+                    <Button
+                        android:id="@+id/cvdesignofsteelstructuresbutton"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="70sp"
+                        android:text="design of steel structures"
+                        android:textAlignment="center"
+                        android:textSize="22sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/mainback"/>
+                    <Button
+                        android:id="@+id/cvestimationandvaluationbutton"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="70sp"
+                        android:text="estimation and valuation "
+                        android:textAlignment="center"
+                        android:textSize="22sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/mainback"/>
+                    <Button
+                        android:id="@+id/cvdesignofprestressedconcretestructuresbutton"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="70sp"
+                        android:text="design of pre-stressed concrete structures"
+                        android:textAlignment="center"
+                        android:textSize="22sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/mainback"/>
+                    <Button
+                        android:id="@+id/cvmatrixmethodsofstructuralanalysisbutton"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="70sp"
+                        android:text="b: matrix methods of structural analysiss"
+                        android:textAlignment="center"
+                        android:textSize="22sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/mainback"/>
+                    <Button
+                        android:id="@+id/cvadvancedesignofrcstructuresbutton"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="70sp"
+                        android:text="b: advance design of rc structures "
+                        android:textAlignment="center"
+                        android:textSize="22sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/mainback"/>
+                    <Button
+                        android:id="@+id/cvdesignofmasonrystructuresbutton"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="70sp"
+                        android:text="b: design of masonry structures "
+                        android:textAlignment="center"
+                        android:textSize="22sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/mainback"/>
+
+                    <Button
+                        android:id="@+id/cvearthandearthreatiningstructures112button"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="70sp"
+                        android:text="b: earth and earth retaining structures "
+                        android:textAlignment="center"
+                        android:textSize="22sp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/mainback"/>
+                    <Button
+                        android:id="@+id/cvhighwaygeometricdesign1button"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="70sp"
+                        android:text="b: highway geometric design I"
+                        android:textAlignment="center"
+                        android:textSize="22sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/mainback"/>
+                    <Button
+                        android:id="@+id/cvopenchannelhydraulicsbutton"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="70sp"
+                        android:text="b: open channel hydraulics "
+                        android:textAlignment="center"
+                        android:textSize="22sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/mainback"/>
+                    <Button
+                        android:id="@+id/cvsolidwastemanagementbutton"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="70sp"
+                        android:text="b: solid waste management"
+                        android:textAlignment="center"
+                        android:textSize="22sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/mainback"/>
+                    <Button
+                        android:id="@+id/cvnumericalmethodsincivilengineeringbutton"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="70sp"
+                        android:text="c: numerical methods in civil engineering "
+                        android:textAlignment="center"
+                        android:textSize="22sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/mainback"/>
+                    <Button
+                        android:id="@+id/cvrockmechanics1button"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="70sp"
+                        android:text="c: rock mechanics I"
+                        android:textAlignment="center"
+                        android:textSize="22sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/mainback"/>
+                    <Button
+                        android:id="@+id/cvpavementmaterialsandconstructionbutton"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="70sp"
+                        android:text="c: pavement materials and construction"
+                        android:textAlignment="center"
+                        android:textSize="22sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/mainback"/>
+                    <Button
+                        android:id="@+id/cvphotogrammetryandremotebutton"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="70sp"
+                        android:text="c: photogrammetry and remote"
+                        android:textAlignment="center"
+                        android:textSize="22sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/mainback"/>
+                    <Button
+                        android:id="@+id/cvairpollutionandcontrolbutton"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="70sp"
+                        android:text="c: air  pollution and control "
+                        android:textAlignment="center"
+                        android:textSize="22sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/mainback"/>
+                    <Button
+                        android:id="@+id/cvdesignanddraiwingofbridgesbutton"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="70sp"
+                        android:text="c: design and drawiing of bridges"
+                        android:textAlignment="center"
+                        android:textSize="22sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/mainback"/>
+                    <Button
+                        android:id="@+id/cvstructuraldynamicsbutton"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="70sp"
+                        android:text="c: structural dynamics  "
+                        android:textAlignment="center"
+                        android:textSize="22sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/mainback"/>
+                    <Button
+                        android:id="@+id/cvenvironmentalengineeringlabbutton"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="70sp"
+                        android:text="environmental engineering lab"
+                        android:textAlignment="center"
+                        android:textSize="22sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/mainback"/>
+                    <Button
+                        android:id="@+id/cvconcreteandhighwaymaterialslabbutton"
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="70sp"
+                        android:text="concrete and highway materials lab"
+                        android:textAlignment="center"
+                        android:textSize="22sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/mainback"/>
+
+                    <Button
+                        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                        android:layout_width="match_parent"
+                        android:layout_height="70sp"/>
+
+
+
+            </LinearLayout>
+
+            </ScrollView>
+
 
 
 
     </LinearLayout>
 
-
-
-</android.support.v4.widget.NestedScrollView>

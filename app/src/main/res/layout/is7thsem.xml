@@ -1,15 +1,12 @@
-<android.support.v4.widget.NestedScrollView
+<LinearLayout
+    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.murugan.surya.wetu.MainActivity">
 
-    <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-        android:weightSum="1">
+
 
 
 
@@ -32,154 +29,247 @@
 
 
 </LinearLayout>
-        <Button
-            android:id="@+id/isadvanceddbmsbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Advanced DBMS"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/isadvancedsoftwareengineeringbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Advanced Software Engineering"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/isartificialintelligencebutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Artificial Intelligence"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/iscsharpprogrammingandgotNetbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="C# Programming and .Net"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/isdatawarehousinganddataminingbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Data Warehousing and Data Mining"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/isdigitalimageprocessingbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Digital Image Processing"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/isembeddedcomputingsystemsbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Embedded Computing Systems"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/isfuzzylogicbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Fuzzy Logic"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/isgametheorybutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Game Theory"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/isinformationsystemsbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Information Systems"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/isjavaandj2eebutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="JAVA and J2EE "
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/ismultimediacomputingbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Multimedia Computing"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/isneuralnetbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Neural Networks"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/isstorageareanetworksbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Storage Area Networks"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/isnetworkslaboratorybutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Networks Laboratory"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/isobjectorientedmodelinganddesignbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Object-Oriented Modeling and Design"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/isprogrammingthewebbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Programming the Web"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/iswebprogramminglaboratorybutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="Web Programming Laboratory"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/isadvanceddbmsbutton"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:text="Advanced DBMS"
+                    android:textAlignment="center"
+                    android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                <Button
+                    android:id="@+id/isadvancedsoftwareengineeringbutton"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:text="Advanced Software Engineering"
+                    android:textAlignment="center"
+                    android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                <Button
+                    android:id="@+id/isartificialintelligencebutton"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:text="Artificial Intelligence"
+                    android:textAlignment="center"
+                    android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                <Button
+                    android:id="@+id/iscsharpprogrammingandgotNetbutton"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:text="C# Programming and .Net"
+                    android:textAlignment="center"
+                    android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                <Button
+                    android:id="@+id/isdatawarehousinganddataminingbutton"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:text="Data Warehousing and Data Mining"
+                    android:textAlignment="center"
+                    android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                <Button
+                    android:id="@+id/isdigitalimageprocessingbutton"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:text="Digital Image Processing"
+                    android:textAlignment="center"
+                    android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                <Button
+                    android:id="@+id/isembeddedcomputingsystemsbutton"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:text="Embedded Computing Systems"
+                    android:textAlignment="center"
+                    android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                <Button
+                    android:id="@+id/isfuzzylogicbutton"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:text="Fuzzy Logic"
+                    android:textAlignment="center"
+                    android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                <Button
+                    android:id="@+id/isgametheorybutton"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:text="Game Theory"
+                    android:textAlignment="center"
+                    android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                <Button
+                    android:id="@+id/isinformationsystemsbutton"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:text="Information Systems"
+                    android:textAlignment="center"
+                    android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                <Button
+                    android:id="@+id/isjavaandj2eebutton"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:text="JAVA and J2EE "
+                    android:textAlignment="center"
+                    android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                <Button
+                    android:id="@+id/ismultimediacomputingbutton"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:text="Multimedia Computing"
+                    android:textAlignment="center"
+                    android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                <Button
+                    android:id="@+id/isneuralnetbutton"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:text="Neural Networks"
+                    android:textAlignment="center"
+                    android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                <Button
+                    android:id="@+id/isstorageareanetworksbutton"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:text="Storage Area Networks"
+                    android:textAlignment="center"
+                    android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                <Button
+                    android:id="@+id/isnetworkslaboratorybutton"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:text="Networks Laboratory"
+                    android:textAlignment="center"
+                    android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                <Button
+                    android:id="@+id/isobjectorientedmodelinganddesignbutton"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:text="Object-Oriented Modeling and Design"
+                    android:textAlignment="center"
+                    android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                <Button
+                    android:id="@+id/isprogrammingthewebbutton"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:text="Programming the Web"
+                    android:textAlignment="center"
+                    android:textSize="22sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+                <Button
+                    android:id="@+id/iswebprogramminglaboratorybutton"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"
+                    android:text="Web Programming Laboratory"
+                    android:textAlignment="center"
+                    android:textSize="22sp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/mainback"/>
+
+                <Button
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="70sp"/>
+
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
 
 
     </LinearLayout>
 
-
-
-</android.support.v4.widget.NestedScrollView>

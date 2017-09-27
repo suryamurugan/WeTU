@@ -1,15 +1,11 @@
-<android.support.v4.widget.NestedScrollView
+<LinearLayout
+    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.murugan.surya.wetu.MainActivity">
 
-    <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-        android:weightSum="1">
 
 
 
@@ -38,71 +34,125 @@
             android:text="select the subjects"
             android:textAlignment="center"/>
 
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
-        <Button
-            android:id="@+id/analogecbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="analog electronics"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/digitalecbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="digital electronics"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/networkanabutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="network analysis"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/eceinstrubutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="electronics instrumentation"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/engecemagbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="engineering electromagnets"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/anaglogecelabbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="analog electronics lab"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/digitaleclabbutton"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="digital electronics lab"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
-        <Button
-            android:id="@+id/engmaths3button"
-            style="@style/Widget.AppCompat.Button.Borderless.Colored"
-            android:layout_width="match_parent"
-            android:layout_height="70sp"
-            android:text="engineering mathematics -3"
-            android:textAlignment="center"
-            android:textSize="22sp"/>
+
+
+
+                        <Button
+                            android:id="@+id/analogecbutton"
+                            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"
+                            android:text="analog electronics"
+                            android:textAlignment="center"
+                            android:textSize="22sp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/mainback"/>
+                        <Button
+                            android:id="@+id/digitalecbutton"
+                            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"
+                            android:text="digital electronics"
+                            android:textAlignment="center"
+                            android:textSize="22sp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/mainback"/>
+                        <Button
+                            android:id="@+id/networkanabutton"
+                            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"
+                            android:text="network analysis"
+                            android:textAlignment="center"
+                            android:textSize="22sp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/mainback"/>
+                        <Button
+                            android:id="@+id/eceinstrubutton"
+                            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"
+                            android:text="electronics instrumentation"
+                            android:textAlignment="center"
+                            android:textSize="22sp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/mainback"/>
+                        <Button
+                            android:id="@+id/engecemagbutton"
+                            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"
+                            android:text="engineering electromagnets"
+                            android:textAlignment="center"
+                            android:textSize="22sp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/mainback"/>
+                        <Button
+                            android:id="@+id/anaglogecelabbutton"
+                            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"
+                            android:text="analog electronics lab"
+                            android:textAlignment="center"
+                            android:textSize="22sp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/mainback"/>
+                        <Button
+                            android:id="@+id/digitaleclabbutton"
+                            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"
+                            android:text="digital electronics lab"
+                            android:textAlignment="center"
+                            android:textSize="22sp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/mainback"/>
+                        <Button
+                            android:id="@+id/engmaths3button"
+                            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"
+                            android:text="engineering mathematics -3"
+                            android:textAlignment="center"
+                            android:textSize="22sp"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="2dp"
+                            android:background="@color/mainback"/>
+
+                        <Button
+                            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                            android:layout_width="match_parent"
+                            android:layout_height="70sp"/>
+
+
+
+                </LinearLayout>
+
+        </ScrollView>
+
 
 
 
@@ -110,6 +160,3 @@
 
     </LinearLayout>
 
-
-
-</android.support.v4.widget.NestedScrollView>
