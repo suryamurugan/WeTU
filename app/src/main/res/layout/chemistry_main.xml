@@ -38,11 +38,13 @@
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="2dp"
-                android:background="@color/mainback"/>
+                android:layout_height="15sp"
+                android:text="select the subjects"
+                android:textAlignment="center"/>
+
+
 
 
 

@@ -73,7 +73,8 @@
         <activity android:name=".LibraryActivity" />
         <activity android:name=".QuestionPapersLibraryActivity" />
         <activity android:name=".LabVideosLibraryActivity" />
-        <activity android:name=".notes_main"></activity>
+        <activity android:name=".notes_main" />
+        <activity android:name=".googleAuth"></activity>
     </application>
 
 </manifest>

@@ -51,10 +51,7 @@
                 android:text="3rd Semester"
                 android:textAlignment="center"
                 android:textSize="22sp"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="2dp"
-                android:background="@color/mainback"/>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="2dp"

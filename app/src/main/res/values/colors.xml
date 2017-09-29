@@ -6,6 +6,7 @@
     <color name="grey">#eeeeee</color>
     <color name="moregrey">#c0c0c0</color>
     <color name="mainback">#d7d7d7</color>
+    <color name="newimg">#ae000000</color>
 
     <color name="transperant">#00ffffff</color>
 </resources>
