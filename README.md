@@ -1,4 +1,4 @@
-# WeTU
+# WeTU RADAR - VTU APP
 My first ANDROID app.
 500+ installs - 4.8 Average Rating - 100+ positive reviews
 
